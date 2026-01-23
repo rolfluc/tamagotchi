@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "47ffaef6-4682-4a87-a393-bad1a10963be")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 52.07 88.9)
+		(size 45.72 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f9f9e1b-dcd6-4194-955e-d48be8be13d1")
+		(property "Sheetname" "Power"
+			(at 52.07 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 52.07 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 134.62)
+		(size 35.56 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c3b0e4f-8c4a-467f-9d04-d27cab17098a")
+		(property "Sheetname" "Display"
+			(at 129.54 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 129.54 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 90.17)
+		(size 25.4 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5f463fe-c05b-4af3-8646-c22a17ba3c4f")
+		(property "Sheetname" "Vape"
+			(at 181.61 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vape.kicad_sch"
+			(at 181.61 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 90.17)
+		(size 35.56 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa26fbad-3e33-4076-a2d8-ec61140b6dfd")
+		(property "Sheetname" "MCU"
+			(at 129.54 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 129.54 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
