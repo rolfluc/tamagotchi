@@ -7,6 +7,7 @@
 *.FCStd1
 *.fcstd2
 *.FCStd2
+*.FCBak
 
 # End of https://www.toptal.com/developers/gitignore/api/freecad
 

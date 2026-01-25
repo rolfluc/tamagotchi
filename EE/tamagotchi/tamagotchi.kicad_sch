@@ -4,7 +4,229 @@
 	(generator_version "9.0")
 	(uuid "47ffaef6-4682-4a87-a393-bad1a10963be")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TODO can 3v3 be done?"
+		(exclude_from_sim no)
+		(at 106.934 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6be8244b-7d3a-4e70-92cb-baa95e4afba7")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889977b8-1753-4bec-ae2e-28e0d8376dbe")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92457b58-ca14-4575-9115-a9eff57ffe70")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf2ff5c-d1ea-45ad-b45c-6b83d6bb2681")
+		(property "Reference" "#PWR09"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b490e1-d7e5-4ce1-a99d-d1d854edaec6")
+		)
+		(instances
+			(project ""
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 52.07 88.9)
 		(size 45.72 39.37)
@@ -37,6 +259,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CE_N" input
+			(at 97.79 113.03 0)
+			(uuid "49f51bcb-522e-4ef8-8f7f-935a728024f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_N" input
+			(at 97.79 115.57 0)
+			(uuid "3dfe3cff-fbb1-411d-8987-9f5bf50946c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 97.79 118.11 0)
+			(uuid "a332027c-900a-4a44-b7c7-1db4f7e0bc84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 97.79 120.65 0)
+			(uuid "5acbae46-0cdd-4631-9a9f-c6cccc3a1a29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYS" input
+			(at 97.79 91.44 0)
+			(uuid "2885cb02-6cbe-4071-8185-42ffbe31fa60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -81,6 +353,46 @@
 				(justify left top)
 			)
 		)
+		(pin "GREEN_EN" input
+			(at 129.54 135.89 180)
+			(uuid "ddcee6b1-9d8a-4d19-adfa-b50385a356a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RED_EN" input
+			(at 129.54 138.43 180)
+			(uuid "27a0d593-2bd0-46da-aa00-3e2bed785947")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VAPE_EN" input
+			(at 129.54 143.51 180)
+			(uuid "5b9ca5f5-a87f-4c04-9ee3-8d3d6fef5f7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "YELLOW_EN" input
+			(at 129.54 140.97 180)
+			(uuid "29f18448-6465-49bf-a72d-be49d68f6e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
@@ -121,6 +433,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VAPE_EN" input
+			(at 181.61 93.98 180)
+			(uuid "1ba6b630-c7c9-43db-856a-a4f569d915d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

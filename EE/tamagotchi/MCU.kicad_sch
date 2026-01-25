@@ -5,4 +5,193 @@
 	(uuid "7723acb9-9027-4a5b-b26f-67d8e876b577")
 	(paper "A4")
 	(lib_symbols)
+	(label "VAPE_EN"
+		(at 273.05 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09173f9c-32d3-42d1-bbed-c42b45b56d81")
+	)
+	(label "SDA"
+		(at 273.05 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "162e87ea-4644-43d9-918e-487ca4cce2ae")
+	)
+	(label "INT_N"
+		(at 22.86 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "242d98d5-12b3-488a-bc30-7516ba46d7c5")
+	)
+	(label "VAPE_SW"
+		(at 22.86 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "373470f6-94ee-4fda-8230-8ba3491a37d1")
+	)
+	(label "SCL"
+		(at 273.05 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3adb85d3-68ca-465e-a0c8-1ae4e154d628")
+	)
+	(label "YELLOW_EN"
+		(at 273.05 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "769ee7e8-49ca-41b7-a92a-b5e994e7eac5")
+	)
+	(label "CE_N"
+		(at 22.86 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c5cd31f-f70d-4d84-89b5-54a943e17b7c")
+	)
+	(label "GREEN_EN"
+		(at 273.05 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eb0bffd-a568-409b-aeda-6c5c99ca0e17")
+	)
+	(label "RED_EN"
+		(at 273.05 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f0b6d4-427b-42e9-ae05-b6bc3000b634")
+	)
+	(hierarchical_label "INT_N"
+		(shape input)
+		(at 22.86 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "068977c7-dd80-4ea7-90e5-d985d5c967a4")
+	)
+	(hierarchical_label "CE_N"
+		(shape input)
+		(at 22.86 15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0740ad0e-1b1c-4caa-aeb3-0d1ee1ebc887")
+	)
+	(hierarchical_label "RED_EN"
+		(shape input)
+		(at 273.05 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c710523-8cd8-4403-8e41-24a1767e3eb3")
+	)
+	(hierarchical_label "YELLOW_EN"
+		(shape input)
+		(at 273.05 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bf26bec-61c2-40bc-b956-853e8b55e99a")
+	)
+	(hierarchical_label "GREEN_EN"
+		(shape input)
+		(at 273.05 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c48367-b3bf-4a82-a32a-7f6b4e58d316")
+	)
+	(hierarchical_label "VAPE_EN"
+		(shape input)
+		(at 273.05 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "771e2bf6-aa63-491f-a6e5-0d5d7fcb1541")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 273.05 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa7b0e4d-5738-4475-8ec8-005d84e36e90")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 273.05 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9c7ebe6-605a-4437-9f73-113962308191")
+	)
+	(hierarchical_label "VAPE_SW"
+		(shape input)
+		(at 22.86 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffada478-17d5-4771-87eb-54149b811271")
+	)
 )

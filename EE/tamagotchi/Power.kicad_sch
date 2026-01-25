@@ -1596,6 +1596,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO ESD"
+		(exclude_from_sim no)
+		(at 59.944 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70cce282-e764-4f44-a0f9-78da7ef25cd3")
+	)
 	(text "TODO pi filter / caps for VBUS"
 		(exclude_from_sim no)
 		(at 61.722 95.25 0)
@@ -1608,13 +1618,23 @@
 	)
 	(text "Castelated board.\nSee: https://github.com/rolfluc/Batteryboard"
 		(exclude_from_sim no)
-		(at 152.654 87.122 0)
+		(at 150.114 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e117d025-5b37-47c4-b5a1-4112ca4f0218")
+	)
+	(text "TODO TS?"
+		(exclude_from_sim no)
+		(at 145.034 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe16c212-bb28-41f8-9fbf-f951ef3854de")
 	)
 	(no_connect
 		(at 44.45 110.49)
@@ -1634,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 102.87) (xy 167.64 96.52)
+			(xy 165.1 111.76) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 102.87) (xy 138.43 102.87)
+			(xy 132.08 111.76) (xy 135.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 176.53 96.52)
+			(xy 165.1 105.41) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 97.79) (xy 134.62 102.87)
+			(xy 132.08 106.68) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 177.8 107.95)
+			(xy 162.56 116.84) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1704,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 167.64 102.87)
+			(xy 162.56 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1733,7 @@
 		(uuid "f7b80055-1681-4386-ba8c-21bdbdd72f19")
 	)
 	(label "INT_N"
-		(at 138.43 110.49 180)
+		(at 135.89 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1733,7 +1753,7 @@
 		(uuid "43b4e80b-97fe-482a-89d0-c7191279041e")
 	)
 	(label "SDA"
-		(at 138.43 107.95 180)
+		(at 135.89 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1783,7 @@
 		(uuid "5c3308b0-4e7a-42fe-ac89-d16c21ef15f1")
 	)
 	(label "SCL"
-		(at 138.43 105.41 180)
+		(at 135.89 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +1803,7 @@
 		(uuid "61a0fb55-fcdd-4e75-b2ee-ed3079acb09f")
 	)
 	(label "SWITCH"
-		(at 165.1 110.49 0)
+		(at 162.56 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1803,7 +1823,7 @@
 		(uuid "6fbcf8eb-ee5a-4fbd-a6da-2e6c1536d313")
 	)
 	(label "VSYS"
-		(at 165.1 105.41 0)
+		(at 162.56 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1823,7 +1843,7 @@
 		(uuid "8ad7960d-eee6-400a-b788-6d781acdee21")
 	)
 	(label "VBAT"
-		(at 185.42 107.95 270)
+		(at 182.88 116.84 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1833,7 +1853,7 @@
 		(uuid "9c638e04-699d-40e2-8383-71ef74fd2958")
 	)
 	(label "TS"
-		(at 165.1 113.03 0)
+		(at 162.56 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1883,7 @@
 		(uuid "c7a05a0a-46f6-4a74-be20-66a751c56234")
 	)
 	(label "CE_N"
-		(at 138.43 113.03 180)
+		(at 135.89 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1873,7 +1893,7 @@
 		(uuid "cb04b1fc-16e0-42cb-91ad-fa81838fc7ea")
 	)
 	(label "SWITCH"
-		(at 182.88 123.19 90)
+		(at 180.34 132.08 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1939,7 +1959,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 134.62 97.79 0)
+		(at 132.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,7 +1968,7 @@
 		(fields_autoplaced yes)
 		(uuid "09f7dc48-88c7-45de-a997-89fac3027265")
 		(property "Reference" "#PWR06"
-			(at 134.62 101.6 0)
+			(at 132.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1977,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 134.62 93.6569 0)
+			(at 132.08 102.5469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 97.79 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 97.79 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 134.62 97.79 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 96.52 0)
+		(at 173.99 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2014,7 +2034,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f340a50-d5c2-411d-adcf-6efc0c1417cf")
 		(property "Reference" "#PWR04"
-			(at 176.53 102.87 0)
+			(at 173.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 100.6531 0)
+			(at 173.99 109.5431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 96.52 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 96.52 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 96.52 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2091,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:bq_castelated")
-		(at 161.29 118.11 0)
+		(at 158.75 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2080,7 +2100,7 @@
 		(fields_autoplaced yes)
 		(uuid "3317f8af-ed89-4c5c-a492-eb3f7532873b")
 		(property "Reference" "U1"
-			(at 151.765 96.3125 0)
+			(at 149.225 105.2025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2108,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 151.765 98.7368 0)
+			(at 149.225 107.6268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 118.11 0)
+			(at 158.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 118.11 0)
+			(at 158.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 118.11 0)
+			(at 158.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2183,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 182.88 128.27 90)
+		(at 180.34 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2172,7 +2192,7 @@
 		(fields_autoplaced yes)
 		(uuid "3925a29c-d2a7-4789-a219-aa1e6a8edc7e")
 		(property "Reference" "SW1"
-			(at 184.023 127.0578 90)
+			(at 181.483 135.9478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2201,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 184.023 129.4821 90)
+			(at 181.483 138.3721 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 128.27 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 128.27 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2228,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 182.88 128.27 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2319,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 181.61 107.95 180)
+		(at 179.07 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2308,7 +2328,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b90a80-0ee3-4f43-b88f-be33e2dde493")
 		(property "Reference" "JP1"
-			(at 181.61 102.9165 0)
+			(at 179.07 111.8065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2336,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 181.61 105.3408 0)
+			(at 179.07 114.2308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 107.95 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 107.95 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2362,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 181.61 107.95 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 133.35 0)
+		(at 180.34 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2477,7 +2497,7 @@
 		(fields_autoplaced yes)
 		(uuid "975bdb3b-92b2-4958-8056-3e54c08a6a34")
 		(property "Reference" "#PWR05"
-			(at 182.88 139.7 0)
+			(at 180.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 137.4831 0)
+			(at 180.34 146.3731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 133.35 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 133.35 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 133.35 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
