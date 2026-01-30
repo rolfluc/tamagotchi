@@ -5,6 +5,432 @@
 	(uuid "79298d1f-5432-4177-9f35-cd633e562ce6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -188,6 +614,509 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_BAGR"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_BAGR"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, blue/anode/green/red"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_BAGR_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_BAGR_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_BAGR_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -307,6 +1236,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -850,6 +1862,16 @@
 		)
 		(uuid d37adccd-cda9-4bd8-a291-908bbde5b513)
 	)
+	(text "TODO test BM07B-GHS-TBT"
+		(exclude_from_sim no)
+		(at 151.638 91.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18e1018b-a3b3-4f49-95b2-6d66ecae258d")
+	)
 	(text "Status Indicator"
 		(exclude_from_sim no)
 		(at 116.078 143.51 0)
@@ -859,16 +1881,6 @@
 			)
 		)
 		(uuid "94fe0e87-ceaa-40e2-9b8d-8c5536daa364")
-	)
-	(text "TODO screen"
-		(exclude_from_sim no)
-		(at 145.288 98.552 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5efc549-2fc5-4a1a-a29c-a3665b6a73e9")
 	)
 	(text "Alcohol Backlight"
 		(exclude_from_sim no)
@@ -893,24 +1905,6 @@
 		(uuid "8037669e-6990-4415-b10b-d34af320ad85")
 	)
 	(junction
-		(at 96.52 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89ca4bac-f1bb-473c-ac36-17e34d12e6e3")
-	)
-	(junction
-		(at 130.81 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3deadd-6d6f-4cbd-a287-45700e8cd2cd")
-	)
-	(junction
-		(at 165.1 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc7db965-f5bb-4d6f-88d9-ecac4d502229")
-	)
-	(junction
 		(at 29.21 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -928,35 +1922,60 @@
 		(color 0 0 0 0)
 		(uuid "f6b59062-f1bb-4702-b2c7-d55b4fd88643")
 	)
-	(wire
-		(pts
-			(xy 156.21 168.91) (xy 156.21 171.45)
-		)
+	(bus_entry
+		(at 38.1 34.29)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01002567-0838-493f-a1de-305717ac8146")
+		(uuid "29a0417c-67f0-48be-a609-b3e8023130f5")
+	)
+	(bus_entry
+		(at 27.94 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d8e5b0-df4b-4444-9e4a-c05f58798cba")
+	)
+	(bus_entry
+		(at 30.48 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97752ebb-4771-4064-b709-64dea3637b63")
+	)
+	(bus_entry
+		(at 33.02 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b367420e-f259-4dc1-96da-fc7e9dcea6c8")
+	)
+	(bus_entry
+		(at 35.56 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b544ce7f-d860-4254-b5c0-a9074923abc5")
 	)
 	(wire
 		(pts
-			(xy 86.36 168.91) (xy 86.36 171.45)
+			(xy 35.56 36.83) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109dae9d-6dc6-4eb9-a7f9-22ea07f5ae08")
-	)
-	(wire
-		(pts
-			(xy 165.1 168.91) (xy 165.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1222e156-45c9-44ea-93cc-009299992195")
+		(uuid "0bae9e4c-7640-43c3-abfb-ad926f66b455")
 	)
 	(wire
 		(pts
@@ -968,6 +1987,16 @@
 		)
 		(uuid "1812b88d-198d-4a02-94e6-13333f9fdad3")
 	)
+	(bus
+		(pts
+			(xy 33.02 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1817e87a-ceaf-4a7a-b705-a4a6496e7e76")
+	)
 	(wire
 		(pts
 			(xy 148.59 179.07) (xy 149.86 179.07)
@@ -977,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "186c1770-396b-4d49-9ca2-2ec2d125b051")
+	)
+	(bus
+		(pts
+			(xy 27.94 34.29) (xy 30.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2025c522-6364-47be-abd5-c6edcbacca85")
 	)
 	(wire
 		(pts
@@ -1040,16 +2079,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 171.45) (xy 96.52 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e2bce9-5105-48e5-913f-b2b155201d5e")
-	)
-	(wire
-		(pts
 			(xy 69.85 168.91) (xy 69.85 171.45)
 		)
 		(stroke
@@ -1057,6 +2086,36 @@
 			(type default)
 		)
 		(uuid "33809a18-2cca-4437-8d35-6575c3b573f8")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f2694f-0543-4107-95b5-10526a8a51b5")
+	)
+	(bus
+		(pts
+			(xy 38.1 34.29) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7af326-7c45-4656-ac60-41c047ca4cc5")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e61aa56-0196-4d82-b198-b3678d896e46")
 	)
 	(wire
 		(pts
@@ -1070,13 +2129,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 171.45) (xy 130.81 173.99)
+			(xy 125.73 81.28) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66d64fce-30f6-4eee-8b62-0f358948ae64")
+		(uuid "64b0adac-0e52-4ddb-9608-219ede670e68")
 	)
 	(wire
 		(pts
@@ -1087,16 +2146,6 @@
 			(type default)
 		)
 		(uuid "6df51f11-223d-423b-8bb1-0a21a7f6e4d1")
-	)
-	(wire
-		(pts
-			(xy 156.21 171.45) (xy 165.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f15114c-21aa-4664-ba0e-dcf22e60f4ef")
 	)
 	(wire
 		(pts
@@ -1120,16 +2169,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 171.45) (xy 165.1 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aca01c8-d96b-48fb-a939-82c61b0b7add")
-	)
-	(wire
-		(pts
 			(xy 45.72 171.45) (xy 49.53 171.45)
 		)
 		(stroke
@@ -1137,6 +2176,16 @@
 			(type default)
 		)
 		(uuid "92e4d898-23a6-40f7-a970-0d257c894f53")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b1478c-419d-420d-b487-e541928d67a0")
 	)
 	(wire
 		(pts
@@ -1150,6 +2199,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 36.83) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a275bec-807e-438f-b669-a3d2dee563aa")
+	)
+	(bus
+		(pts
+			(xy 26.67 34.29) (xy 27.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95b4359-f58d-4f70-81b4-e0493ce8527f")
+	)
+	(wire
+		(pts
 			(xy 19.05 171.45) (xy 29.21 171.45)
 		)
 		(stroke
@@ -1160,23 +2229,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 171.45) (xy 96.52 173.99)
+			(xy 125.73 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aceefaf2-721d-4054-aa7b-9fbdf9df9a19")
-	)
-	(wire
-		(pts
-			(xy 121.92 168.91) (xy 121.92 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae66a20a-ef9a-4ec4-8e64-f9b52bf2fa55")
+		(uuid "b1bb3d7d-7204-4395-8c65-369e65f26b38")
 	)
 	(wire
 		(pts
@@ -1200,23 +2259,33 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 168.91) (xy 96.52 171.45)
+			(xy 30.48 36.83) (xy 30.48 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5731c66-c871-4047-a94d-664d84a88b76")
+		(uuid "d1a2225b-b027-4482-9774-e64eb9068c35")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 121.92 171.45) (xy 130.81 171.45)
+			(xy 35.56 34.29) (xy 38.1 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef3cb320-f574-4c29-839a-9a7dd3d18998")
+		(uuid "d7db3a5f-e4ec-46c1-b313-4d8954144a9c")
+	)
+	(bus
+		(pts
+			(xy 30.48 34.29) (xy 33.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea30b122-52ae-45fc-b6a4-dd121fbc9e1a")
 	)
 	(wire
 		(pts
@@ -1227,6 +2296,16 @@
 			(type default)
 		)
 		(uuid "ef41f12f-da35-4a0d-9d34-feef1651a8e1")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09714a3-10be-4e91-a498-6fb78ece5b74")
 	)
 	(wire
 		(pts
@@ -1248,18 +2327,18 @@
 		)
 		(uuid "f635b620-0690-45bf-a33a-438ec7189cbd")
 	)
-	(wire
-		(pts
-			(xy 130.81 168.91) (xy 130.81 171.45)
+	(label "CS{SPI}"
+		(at 129.54 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96ec3ab-653f-4fbe-bc38-2f9815eb7d32")
+		(uuid "11545a8f-70d4-4e0d-a74e-5b9d8a5d8e20")
 	)
 	(label "YELLOW_EN"
-		(at 24.13 20.32 0)
+		(at 24.13 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,6 +2357,16 @@
 		)
 		(uuid "289d9dbc-a1ed-4f54-b385-9594168a6fb1")
 	)
+	(label "G"
+		(at 156.21 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "297b636c-2d31-48f1-93b8-e78501143166")
+	)
 	(label "RED_EN"
 		(at 80.01 179.07 90)
 		(effects
@@ -1289,7 +2378,7 @@
 		(uuid "2e32eeb0-9fb8-4aa8-87d1-3dbcdf93421a")
 	)
 	(label "RED_EN"
-		(at 24.13 17.78 0)
+		(at 24.13 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,15 +2387,45 @@
 		)
 		(uuid "35890296-02a6-41d2-89f3-f194d6ad4538")
 	)
-	(label "VAPE_EN"
-		(at 24.13 15.24 0)
+	(label "R"
+		(at 161.29 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3c0f62c4-3334-44f5-8a47-ba3866b1e38a")
+		(uuid "3e31a417-d411-4a31-9a33-d8bd4eb21395")
+	)
+	(label "RST{SPI}"
+		(at 129.54 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50dccee9-b2cb-487b-abea-97585a340a43")
+	)
+	(label "G"
+		(at 123.19 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59430bf0-01ac-4f81-ab04-bc1e758b9add")
+	)
+	(label "DC{SPI}"
+		(at 129.54 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "690c566b-98ea-4d3a-b33e-13930a677187")
 	)
 	(label "GREEN_EN"
 		(at 148.59 179.07 90)
@@ -1318,8 +2437,18 @@
 		)
 		(uuid "6f2c823a-7691-4b59-a23b-4119a932c847")
 	)
+	(label "CS{SPI}"
+		(at 35.56 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84173eb1-de72-4283-9cd4-7cc4c72e5f74")
+	)
 	(label "GREEN_EN"
-		(at 24.13 22.86 0)
+		(at 24.13 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,6 +2456,26 @@
 			(justify left bottom)
 		)
 		(uuid "860e9c63-d135-4bcb-a792-884126566a39")
+	)
+	(label "Y"
+		(at 118.11 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb20c51-27fe-41f4-a503-db0808cd5d6b")
+	)
+	(label "CLK{SPI}"
+		(at 129.54 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e5fd91c-0714-4f86-9cec-c40fc559e3fa")
 	)
 	(label "YELLOW_EN"
 		(at 114.3 179.07 90)
@@ -1338,20 +2487,139 @@
 		)
 		(uuid "a40df154-3205-49ab-a035-0d31e220287f")
 	)
-	(hierarchical_label "VAPE_EN"
-		(shape input)
-		(at 24.13 15.24 180)
+	(label "Y"
+		(at 82.55 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0d082308-9c5e-4ca7-b413-6cb5f5f2efac")
+		(uuid "af03ec02-f2a1-4b4b-93da-cd72ce742f11")
+	)
+	(label "RST{SPI}"
+		(at 40.64 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc6d3c2c-3bf9-4dac-909a-e527b7f7529a")
+	)
+	(label "Y"
+		(at 151.13 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf69dc3-6359-4f3d-ad7e-5d1a8ed26a46")
+	)
+	(label "DC{SPI}"
+		(at 38.1 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d609aeaa-743d-4ec1-a308-8fe06a04f207")
+	)
+	(label "MOSI{SPI}"
+		(at 30.48 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd407dcf-bd57-4117-ba43-6fd43e8c8ecb")
+	)
+	(label "G"
+		(at 165.1 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0dda496-5a6b-45c1-80b9-e93dba4e624a")
+	)
+	(label "Y"
+		(at 130.81 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e827f3d6-18e2-4678-98bd-ec9b7057bed2")
+	)
+	(label "R"
+		(at 128.27 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9601c40-f281-4f63-98f5-2610925ca74c")
+	)
+	(label "CLK{SPI}"
+		(at 33.02 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee09b648-3836-46e6-875a-e7573e1f4385")
+	)
+	(label "R"
+		(at 96.52 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f13ae980-9e72-4f86-8e78-0616323ceb2a")
+	)
+	(label "R"
+		(at 92.71 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b9d5f4-3f5d-4a0f-9ab6-2a9491c08147")
+	)
+	(label "G"
+		(at 87.63 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc2290bd-24a3-424d-b438-dda19741902b")
+	)
+	(label "MOSI{SPI}"
+		(at 129.54 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe57886a-6826-4bf8-af91-008ef40707c6")
 	)
 	(hierarchical_label "GREEN_EN"
 		(shape input)
-		(at 24.13 22.86 180)
+		(at 24.13 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +2630,7 @@
 	)
 	(hierarchical_label "YELLOW_EN"
 		(shape input)
-		(at 24.13 20.32 180)
+		(at 24.13 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +2641,7 @@
 	)
 	(hierarchical_label "RED_EN"
 		(shape input)
-		(at 24.13 17.78 180)
+		(at 24.13 16.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1381,6 +2649,17 @@
 			(justify right)
 		)
 		(uuid "93479a4f-a7ff-4791-a06d-d77bfeeb6a5a")
+	)
+	(hierarchical_label "DISPLAY{SPI}"
+		(shape input)
+		(at 26.67 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddcbd9aa-4172-4ca8-a3cb-c9c858944ff4")
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
@@ -1437,6 +2716,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "77e010f9-2f53-4b59-9fdb-f9d30e13948a")
 		)
@@ -1456,35 +2753,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 165.1 165.1 90)
+		(lib_id "power:+3V3")
+		(at 87.63 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03aa4644-4241-43be-9ba5-2dbc7a5ceed6")
-		(property "Reference" "D5"
-			(at 168.91 165.4174 90)
+		(uuid "0381aad6-54da-495c-8a02-1c8c7933c5c7")
+		(property "Reference" "#PWR013"
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "LED"
-			(at 168.91 167.9574 90)
+		(property "Value" "+3V3"
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 165.1 0)
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,8 +2788,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 165.1 165.1 0)
+		(property "Datasheet" ""
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,51 +2797,38 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 165.1 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 165.1 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b44589a1-02db-4af4-bb38-6326aa8e0aed")
 		)
 		(pin "1"
-			(uuid "3e7b22d7-1fac-441f-b212-c5374029408a")
+			(uuid "4041c83d-39cb-4a68-903c-c3af5a3f8e47")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D5")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 121.92 157.48 0)
+		(lib_id "Device:C")
+		(at 116.84 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0494b8d6-8973-4a7f-850e-6e1ed28864c1")
-		(property "Reference" "R19"
-			(at 124.46 156.2099 0)
+		(uuid "07202551-1ff8-4a64-90d0-de5548160bb3")
+		(property "Reference" "C1"
+			(at 119.761 72.4478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,8 +2836,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 124.46 158.7499 0)
+		(property "Value" "0.1u"
+			(at 119.634 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,8 +2845,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.142 157.48 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 117.8052 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +2855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 157.48 0)
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,8 +2863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 121.92 157.48 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,51 +2872,68 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "749d20e7-7f38-4691-a41d-6852f5d82f2b")
+		(property "DigikeyLink" ""
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3bce69e3-99a8-44e6-b9aa-4fc981702df4")
+			(uuid "0baef898-e469-420d-b8de-0e655c6f4cc3")
+		)
+		(pin "2"
+			(uuid "20bf2f7a-7d58-4340-9473-fcaaf6d8c30d")
 		)
 		(instances
-			(project "tamagotchi"
+			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R19")
+					(reference "C1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 96.52 165.1 90)
+		(lib_id "power:GND")
+		(at 116.84 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04ca1f2d-9f3d-4483-86b2-33d9f1ce368d")
-		(property "Reference" "D3"
-			(at 100.33 165.4174 90)
+		(uuid "075297f7-0a47-44db-bc5e-e56cdfb33207")
+		(property "Reference" "#PWR032"
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "LED"
-			(at 100.33 167.9574 90)
+		(property "Value" "GND"
+			(at 116.84 81.6031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 165.1 0)
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,8 +2941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 96.52 165.1 0)
+		(property "Datasheet" ""
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,34 +2950,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 96.52 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0e09752-a1a1-4b54-8e7d-cb7b68cc699f")
 		)
 		(pin "1"
-			(uuid "f3d81005-ddff-440e-a53e-14daa63c785f")
+			(uuid "44c1398c-3ab6-4c0f-9885-95c9569f63ad")
 		)
 		(instances
-			(project "tamagotchi"
+			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D3")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1750,6 +3038,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_BAGR")
+		(at 156.21 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dbfcf18-26b4-4e02-8e50-262b5ae6fb9f")
+		(property "Reference" "D5"
+			(at 164.592 163.8878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_BRGY"
+			(at 164.592 166.3121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:EAST1616RGYA0_EVE"
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EAST1616RGYA0"
+			(at 156.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "74b4b22e-2fba-45ab-8a5b-cd58a15bba37")
+		)
+		(pin "4"
+			(uuid "d56c7a23-6061-4395-917b-b36a1e49b413")
+		)
+		(pin "2"
+			(uuid "a0a3e676-2c98-466d-b22e-dd17b405840b")
+		)
+		(pin "1"
+			(uuid "36056a18-d647-4028-905c-57ac83df82ea")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 184.15 0)
 		(unit 1)
@@ -1816,142 +3180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1558cc1a-2952-4104-bbc7-cc18fcc71372")
-		(property "Reference" "R7"
-			(at 99.06 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 99.06 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.742 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7a03c61f-cf25-41f5-b4a7-4ea350c00243")
-		)
-		(pin "1"
-			(uuid "4d25b318-b3e4-4754-b2aa-b03c22b8f32f")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "162ea25a-af65-4dd1-bdf3-0542fa67dc61")
-		(property "Reference" "#PWR019"
-			(at 165.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90a6301d-7f07-431d-88fd-96c0e787e41d")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 29.21 165.1 90)
 		(unit 1)
@@ -1979,7 +3207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 29.21 165.1 0)
 			(effects
 				(font
@@ -2008,6 +3236,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 29.21 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 29.21 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +3369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 112.522 185.42 90)
 			(effects
 				(font
@@ -2142,6 +3388,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 114.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 114.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 114.3 185.42 0)
 			(effects
 				(font
@@ -2232,72 +3496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 130.81 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24f3410a-971d-4974-a501-233c9a515957")
-		(property "Reference" "#PWR016"
-			(at 130.81 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 130.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4de9d61-db8a-4f93-8040-a769eb9f4835")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 19.05 157.48 0)
 		(unit 1)
@@ -2325,7 +3523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 17.272 157.48 90)
 			(effects
 				(font
@@ -2352,6 +3550,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 19.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 19.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b89564b-364d-4924-9d03-e366dc6c2fdb")
 		)
@@ -2362,225 +3578,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 130.81 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bd4eb96-2b81-495f-bf8c-432a547996a6")
-		(property "Reference" "D4"
-			(at 134.62 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 134.62 167.9574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 130.81 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d1f2109-d386-4898-a62d-d38c564b7188")
-		)
-		(pin "1"
-			(uuid "5369754a-032a-4da9-ad54-f1ebee1ae772")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c3114c7-c728-4afb-acf5-d038c60541b2")
-		(property "Reference" "R18"
-			(at 88.9 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 88.9 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.582 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ef05193-91ff-4892-a926-d6bdb87c7c61")
-		)
-		(pin "1"
-			(uuid "a174d787-1913-449f-87f3-7c1cbe11e3fd")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c91523e-8e54-48ea-991d-1d82d9efac6b")
-		(property "Reference" "R20"
-			(at 158.75 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 158.75 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.432 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98055eb3-76e7-4eab-bd5d-ea32f685c258")
-		)
-		(pin "1"
-			(uuid "f3a67236-b59b-43c9-93c7-a82d974d88df")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2611,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 153.67 180.848 90)
 			(effects
 				(font
@@ -2638,6 +3635,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 153.67 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee176c23-c5e7-4206-b6ea-765230992cb6")
 		)
@@ -2648,76 +3663,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f00f9ee-810e-4fac-ad18-57b69f5018fd")
-		(property "Reference" "R10"
-			(at 133.35 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 133.35 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.032 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86da9a63-e289-429c-bd15-4f5f80de6dda")
-		)
-		(pin "1"
-			(uuid "0415bfdd-4d6c-46ac-b66a-5e35bb0010d9")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2751,7 +3696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 49.53 165.1 0)
 			(effects
 				(font
@@ -2780,6 +3725,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 49.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 49.53 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 49.53 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +3859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 39.37 165.1 0)
 			(effects
 				(font
@@ -2925,6 +3888,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 39.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 39.37 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 39.37 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,34 +3995,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 153.67 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "40f143b1-10c4-4db3-a8c6-caac90bd95ce")
-		(property "Reference" "#PWR013"
-			(at 96.52 157.48 0)
+		(uuid "3c67445f-7413-4f65-828e-4ace0f3096f1")
+		(property "Reference" "H3"
+			(at 58.42 116.8978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 96.52 148.59 0)
+		(property "Value" "Spacer"
+			(at 58.42 119.3221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 153.67 0)
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,8 +4031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 153.67 0)
+		(property "Datasheet" "~"
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,22 +4040,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 153.67 0)
+		(property "Description" "13RS014536"
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "61ae2b33-e22a-4760-9ef2-c57bffba7904")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR013")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3104,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 34.29 180.848 90)
 			(effects
 				(font
@@ -3124,6 +4103,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 34.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 34.29 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 34.29 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,6 +4198,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 93.98 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 93.98 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7fc2dd5c-d07b-47f0-bb5a-5cc15d86b030")
 		)
@@ -3244,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 119.38 180.848 90)
 			(effects
 				(font
@@ -3271,6 +4286,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 119.38 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 119.38 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b28f6c9c-10fb-46bf-8c17-6076e7ed52c6")
 		)
@@ -3281,72 +4314,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 121.92 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c575d3d-ac60-42e0-b795-059f3072238f")
-		(property "Reference" "#PWR027"
-			(at 121.92 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 121.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "029b0dc3-da36-45c8-b92e-70fed698281c")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3380,7 +4347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 27.432 157.48 90)
 			(effects
 				(font
@@ -3407,6 +4374,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 29.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 29.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3f764c4-0630-43b7-8182-1f57fa98208c")
 		)
@@ -3417,6 +4402,118 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 134.62 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca0ab0b-bf4a-4767-9d6f-7c69fcc86b0a")
+		(property "Reference" "J3"
+			(at 136.652 90.2278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 136.652 92.6521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TODO" "BM07B-GHS-TBT"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "66878f2b-8110-45d1-b85e-ead512f51d5a")
+		)
+		(pin "4"
+			(uuid "8ba5e0e1-580a-46d1-b379-a9a7e2d6fe3e")
+		)
+		(pin "1"
+			(uuid "6d720809-e9d5-4c82-91df-4e3250a3e037")
+		)
+		(pin "6"
+			(uuid "0b5c6abc-b1c9-4e1b-82be-5c919dba8e72")
+		)
+		(pin "2"
+			(uuid "03259e98-f5c4-4dac-8c47-bb2163923638")
+		)
+		(pin "3"
+			(uuid "a4e9bafc-0b3c-4d15-b6d1-badde00adf22")
+		)
+		(pin "5"
+			(uuid "91e15375-08ed-4371-a11f-b5c70a03a4c1")
+		)
+		(instances
+			(project ""
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3450,7 +4547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 37.592 157.48 90)
 			(effects
 				(font
@@ -3469,6 +4566,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 39.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 39.37 157.48 0)
 			(effects
 				(font
@@ -3547,6 +4662,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d564c7c9-1d1e-4c2a-b6b7-e7f6169e14ac")
 		)
@@ -3560,6 +4693,72 @@
 			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e3a5fa7-8f04-4039-9143-a609a9a62d70")
+		(property "Reference" "#PWR019"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14f49bf-6360-461e-88e6-7e27d7fa8b60")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3593,7 +4792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 59.182 157.48 90)
 			(effects
 				(font
@@ -3612,6 +4811,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 60.96 157.48 0)
 			(effects
 				(font
@@ -3689,6 +4906,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4d1e8eeb-2a25-4d08-a3af-d81e0c0f19fa")
 		)
@@ -3702,6 +4937,70 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ace2319-1aab-4783-bf7c-3f5206cd7619")
+		(property "Reference" "H1"
+			(at 105.41 119.4378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ScreenMount"
+			(at 105.41 121.8621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:ScreenMount"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3735,7 +5034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 69.85 165.1 0)
 			(effects
 				(font
@@ -3771,6 +5070,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 69.85 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 69.85 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffba43e7-cf66-4687-bc5c-1a843a926aa9")
 		)
@@ -3781,6 +5098,82 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_BAGR")
+		(at 87.63 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a5a0fcb-945d-4bfd-8414-9e46b9da7378")
+		(property "Reference" "D3"
+			(at 96.012 163.8878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_BRGY"
+			(at 96.012 166.3121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:EAST1616RGYA0_EVE"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EAST1616RGYA0"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1ec39b1-a2b7-445c-a62f-2e0900806faa")
+		)
+		(pin "4"
+			(uuid "ef1e445d-5d89-4b6c-afdc-256be9b124ca")
+		)
+		(pin "2"
+			(uuid "712b2a1e-ad7d-481d-86fd-d7978e798335")
+		)
+		(pin "1"
+			(uuid "38359cab-2008-4bc9-8fd1-8d09228d17a3")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3854,16 +5247,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 86.36 153.67 0)
+		(at 123.19 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a7a3d2a-c82c-457f-b271-d6da09922642")
-		(property "Reference" "#PWR026"
-			(at 86.36 157.48 0)
+		(uuid "88f77d47-deff-4ddb-8a77-69f2f37ccdd2")
+		(property "Reference" "#PWR016"
+			(at 123.19 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +5265,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.36 148.59 0)
+			(at 123.19 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +5273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 153.67 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +5282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 153.67 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +5291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 153.67 0)
+			(at 123.19 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,12 +5300,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e4e01c5-dc3c-41e2-812f-ba523f144901")
+			(uuid "8fd8e6d4-f70d-4fa6-8a6e-aafa21cc6b59")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4009,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 85.09 180.848 90)
 			(effects
 				(font
@@ -4029,6 +5422,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 85.09 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 85.09 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +5490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 60.96 165.1 0)
 			(effects
 				(font
@@ -4108,6 +5519,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 60.96 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 60.96 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,72 +5626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c23635b-b787-4558-8eb8-3bfedc48c2d0")
-		(property "Reference" "#PWR028"
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 156.21 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5825fe2e-03a4-4f59-830e-972554dbb64c")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 19.05 165.1 90)
 		(unit 1)
@@ -4290,7 +5653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 19.05 165.1 0)
 			(effects
 				(font
@@ -4326,6 +5689,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 19.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060BS55040"
+			(at 19.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f91a7451-e992-490d-9c93-b7be23e6e80c")
 		)
@@ -4336,6 +5717,94 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0324c88-40a1-49f1-bce0-a03601ec4ff3")
+		(property "Reference" "R7"
+			(at 90.17 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 90.17 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 85.852 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 87.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1add1e4-a565-4a61-a1e8-d972d5b9bb2e")
+		)
+		(pin "1"
+			(uuid "e7d7da38-1030-4256-bc72-47d06cea59aa")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4368,7 +5837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 146.812 185.42 90)
 			(effects
 				(font
@@ -4395,6 +5864,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 148.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdd19e83-39d4-45b2-a63d-5abd24c771a4")
 		)
@@ -4411,35 +5898,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 121.92 165.1 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "cbf9b9a8-e677-460c-9934-9de4db2facbd")
-		(property "Reference" "D11"
-			(at 125.73 165.4174 90)
+		(uuid "b30eb22d-2d00-4597-972f-7fc0807175bf")
+		(property "Reference" "H4"
+			(at 71.12 116.8978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 125.73 167.9574 90)
+		(property "Value" "Spacer"
+			(at 71.12 119.3221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 165.1 0)
+			(at 68.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +5935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 165.1 0)
+			(at 68.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,34 +5943,291 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 121.92 165.1 0)
+		(property "Description" "13RS014536"
+			(at 68.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b08162a1-66ac-4f21-8836-8d916e99d4fe")
-		)
-		(pin "1"
-			(uuid "f357fac6-a80d-403d-b06e-f388975ff05d")
 		)
 		(instances
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D11")
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44bed56-bfb3-4fe6-8b69-165d83153c49")
+		(property "Reference" "#PWR031"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 65.7169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc9928be-9eb2-4575-9a06-f28d2f4537a5")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c8e2decc-255a-4446-8c9d-b8ab85b93d0f")
+		(property "Reference" "H5"
+			(at 71.12 110.5478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer"
+			(at 71.12 112.9721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "13RS014536"
+			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99972c6-a0e8-4cf5-8bc5-ef6aa36ae118")
+		(property "Reference" "#PWR033"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 91.7631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9340928b-b55a-483d-a9ec-5e14018b3fa8")
+		)
+		(instances
+			(project ""
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_BAGR")
+		(at 123.19 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0dab485-d742-4274-be7f-f3b2e911aa3c")
+		(property "Reference" "D4"
+			(at 131.572 163.8878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_BRGY"
+			(at 131.572 166.3121 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:EAST1616RGYA0_EVE"
+			(at 124.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EAST1616RGYA0"
+			(at 123.19 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "04f32329-a54b-4758-a7c8-1cf0b6d1b847")
+		)
+		(pin "4"
+			(uuid "dc6572c0-88dc-4202-a26e-412ad8f5721f")
+		)
+		(pin "2"
+			(uuid "fbbe5feb-6b08-4791-ab64-a22c11b6e44d")
+		)
+		(pin "1"
+			(uuid "26687250-f9c4-46f9-be6d-fcc5c25b488e")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4556,35 +6300,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 165.1 157.48 0)
+		(lib_id "power:+3V3")
+		(at 125.73 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2c61441-4269-4200-8c23-a855710f5b9a")
-		(property "Reference" "R13"
-			(at 167.64 156.2099 0)
+		(uuid "d396aac5-c49f-408f-be65-157de784b52c")
+		(property "Reference" "#PWR06"
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "R"
-			(at 167.64 158.7499 0)
+		(property "Value" "+3V3"
+			(at 125.73 77.1469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.322 157.48 90)
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,8 +6335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 165.1 157.48 0)
+		(property "Datasheet" ""
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,104 +6344,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 165.1 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 125.73 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "9743a41d-a94b-4c39-8f65-aaa842ab1ff1")
 		)
 		(pin "1"
-			(uuid "9df31e7a-88d0-45b4-ae25-65553bf63f4e")
+			(uuid "698db995-a71b-42f4-83c7-ff1ae1fe3ccf")
 		)
 		(instances
-			(project "tamagotchi"
+			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 86.36 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4656c69-01cf-4f1e-9f40-3ab73a285c08")
-		(property "Reference" "D10"
-			(at 90.17 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 90.17 167.9574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 86.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 86.36 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05a6ad20-842f-41b2-bbd5-bc44fc441835")
-		)
-		(pin "1"
-			(uuid "885ec885-cee1-4285-a363-f846453ce446")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D10")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4864,7 +6525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 47.752 157.48 90)
 			(effects
 				(font
@@ -4883,6 +6544,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 49.53 157.48 0)
 			(effects
 				(font
@@ -5000,7 +6679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 68.072 157.48 90)
 			(effects
 				(font
@@ -5019,6 +6698,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 69.85 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 69.85 157.48 0)
 			(effects
 				(font
@@ -5069,7 +6766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 24.892 185.42 90)
 			(effects
 				(font
@@ -5096,6 +6793,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyLink" ""
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e94c11a-89f0-4fcb-83e4-d9bfab4c3b5c")
 		)
@@ -5106,6 +6821,182 @@
 			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fe1fb8-18c6-435b-aac2-96a593e40350")
+		(property "Reference" "R13"
+			(at 158.75 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 158.75 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 154.432 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bd660d4-0d7c-426b-8d35-4c8e92bc33ab")
+		)
+		(pin "1"
+			(uuid "23d78e9e-d496-48f0-9155-4d1d93c758d8")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4552ab7-d83d-493e-8fc9-7d3edb04b12b")
+		(property "Reference" "R10"
+			(at 125.73 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 125.73 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 121.412 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b87e3118-d868-4902-9818-e669b48431ea")
+		)
+		(pin "1"
+			(uuid "cf6d7bf6-80ae-46f5-a511-61df578b3c53")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5138,7 +7029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 78.232 185.42 90)
 			(effects
 				(font
@@ -5157,6 +7048,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" ""
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 80.01 185.42 0)
 			(effects
 				(font
@@ -5247,35 +7156,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 156.21 165.1 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "fe9076ca-759c-4d31-a006-b1a3c72f9f9f")
-		(property "Reference" "D12"
-			(at 160.02 165.4174 90)
+		(uuid "fd22d0bc-4d69-4456-8ef4-cf2ea59e3a7e")
+		(property "Reference" "H2"
+			(at 58.42 110.5478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 160.02 167.9574 90)
+		(property "Value" "Spacer"
+			(at 58.42 112.9721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 165.1 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +7193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 165.1 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,34 +7201,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 156.21 165.1 0)
+		(property "Description" "13RS014536"
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a07a7222-79d1-4721-9dd8-8cd36d6e45c8")
-		)
-		(pin "1"
-			(uuid "f89f979c-3dbb-4679-8522-06187934dc25")
 		)
 		(instances
-			(project "tamagotchi"
+			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D12")
+					(reference "H2")
 					(unit 1)
 				)
 			)
