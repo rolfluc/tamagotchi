@@ -1981,12 +1981,6 @@
 		(uuid "dcf86e30-6783-4154-a878-d58cab71312a")
 	)
 	(junction
-		(at 39.37 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1daa605-aca7-43e4-adb0-9cf89a016efd")
-	)
-	(junction
 		(at 60.96 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2119,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 171.45) (xy 45.72 171.45)
+			(xy 29.21 171.45) (xy 45.72 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2359,16 +2353,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 168.91) (xy 39.37 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef41f12f-da35-4a0d-9d34-feef1651a8e1")
-	)
-	(wire
-		(pts
 			(xy 111.76 86.36) (xy 129.54 86.36)
 		)
 		(stroke
@@ -2376,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "f09714a3-10be-4e91-a498-6fb78ece5b74")
-	)
-	(wire
-		(pts
-			(xy 29.21 171.45) (xy 39.37 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59e4414-f03c-4af4-895a-35dcae2f959a")
 	)
 	(wire
 		(pts
@@ -3256,72 +3230,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 39.37 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18855276-f826-4816-88fd-2016428af19c")
-		(property "Reference" "#PWR010"
-			(at 39.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 39.37 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 39.37 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aa42b8f-dbf3-4cb5-81c0-73065533037f")
-		)
-		(instances
-			(project ""
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 185.42 0)
 		(unit 1)
@@ -3893,103 +3801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 39.37 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "340db308-b76c-45a4-867f-2c824e6fe12c")
-		(property "Reference" "D2"
-			(at 43.18 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 43.18 167.9574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 39.37 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 39.37 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 39.37 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060BS55040"
-			(at 39.37 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ef6f381-af40-431b-9a91-2449119cebb7")
-		)
-		(pin "1"
-			(uuid "3f2426b4-729d-4fd5-a739-4c4127dea51e")
-		)
-		(instances
-			(project ""
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 153.67 0)
 		(unit 1)
@@ -4484,94 +4295,6 @@
 			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b352bec-cd12-4d3a-a5ed-4bb0c59c7293")
-		(property "Reference" "R1"
-			(at 41.91 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 41.91 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 37.592 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 39.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 39.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "801a4ad6-a82c-4e78-8df4-3871ef3d2c6f")
-		)
-		(pin "1"
-			(uuid "6a79f407-f222-4b8e-a8b8-b112bf619fde")
-		)
-		(instances
-			(project ""
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R1")
 					(unit 1)
 				)
 			)
