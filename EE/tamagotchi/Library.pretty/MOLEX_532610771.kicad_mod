@@ -423,4 +423,15 @@
 		(uuid "6cf68867-89db-4493-b15b-21d27dc93a8a")
 	)
 	(embedded_fonts no)
+	(model "${PROJECT}/532610771.step"
+		(offset
+			(xyz 0 -1.5 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
