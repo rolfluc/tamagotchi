@@ -1996,9 +1996,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "110khz, 50%DC\n100V"
+	(text "110khz, 50%DC\n100V\n\nConsumes ~200mA @ 5V"
 		(exclude_from_sim no)
-		(at 140.462 91.186 0)
+		(at 126.746 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
