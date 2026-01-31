@@ -1241,6 +1241,86 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1324,7 +1404,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1341,7 +1421,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GDS"
+			(property "Value" "Q_NMOS_GSD"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1368,7 +1448,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1386,7 +1466,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_GDS_0_1"
+			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1553,7 +1633,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_1_1"
+			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1582,7 +1662,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1600,7 +1680,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1861,16 +1941,6 @@
 			(type none)
 		)
 		(uuid d37adccd-cda9-4bd8-a291-908bbde5b513)
-	)
-	(text "TODO test BM07B-GHS-TBT"
-		(exclude_from_sim no)
-		(at 151.638 91.44 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "18e1018b-a3b3-4f49-95b2-6d66ecae258d")
 	)
 	(text "Status Indicator"
 		(exclude_from_sim no)
@@ -2662,97 +2732,6 @@
 		(uuid "ddcbd9aa-4172-4ca8-a3cb-c9c858944ff4")
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 128.27 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "003faf18-9643-4131-af22-0cc935735684")
-		(property "Reference" "Q3"
-			(at 134.62 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 134.62 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "77e010f9-2f53-4b59-9fdb-f9d30e13948a")
-		)
-		(pin "2"
-			(uuid "79d17d3a-8c94-43d5-a4c0-2d65c9f02e79")
-		)
-		(pin "1"
-			(uuid "85e2b451-5642-4851-b3ec-1b63bbd79d91")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 87.63 152.4 0)
 		(unit 1)
@@ -3424,6 +3403,88 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 128.27 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205b04ef-bc48-4752-88d6-c5d61d6c0e52")
+		(property "Reference" "Q2"
+			(at 133.477 177.8578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 133.477 180.2821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.35 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN30H4D0L-13"
+			(at 128.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "65ba4b2b-2e41-4bab-b470-e58aeac0576e")
+		)
+		(pin "1"
+			(uuid "e13b1054-6718-4d6f-8ad6-e5b928bae166")
+		)
+		(pin "2"
+			(uuid "104ffdef-0368-42a0-baee-04c8cc4f3ee2")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4144,97 +4205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 93.98 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41767b19-b9b0-45d8-bda1-409eefb5a904")
-		(property "Reference" "Q2"
-			(at 100.33 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 100.33 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7fc2dd5c-d07b-47f0-bb5a-5cc15d86b030")
-		)
-		(pin "2"
-			(uuid "9fbea359-8dfb-4cd1-b81e-d0acb58f9645")
-		)
-		(pin "1"
-			(uuid "58cbb633-6456-4991-8543-9223afc4ea76")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 119.38 179.07 90)
 		(unit 1)
@@ -4435,7 +4405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:MOLEX_532610771"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -4462,7 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "TODO" "BM07B-GHS-TBT"
+		(property "TODO" ""
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -4480,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0532610771"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -4602,97 +4572,6 @@
 			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 43.18 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ca4f637-da38-420e-bec7-a057d336e2cf")
-		(property "Reference" "Q1"
-			(at 49.53 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 49.53 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d564c7c9-1d1e-4c2a-b6b7-e7f6169e14ac")
-		)
-		(pin "2"
-			(uuid "dc19440b-5acb-4f73-b6a7-36b612d4a7d9")
-		)
-		(pin "1"
-			(uuid "876b030d-df8d-4559-8f33-7d0cc3447bd8")
-		)
-		(instances
-			(project ""
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4853,16 +4732,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 162.56 179.07 0)
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 93.98 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "61b25031-e27c-4845-a866-ef4e5fd6ee42")
-		(property "Reference" "Q4"
-			(at 168.91 177.7999 0)
+		(fields_autoplaced yes)
+		(uuid "62067be7-50f1-48b8-b92f-fad4f2027b7b")
+		(property "Reference" "Q7"
+			(at 99.187 177.8578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,8 +4750,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 172.466 184.912 90)
+		(property "Value" "Q_NMOS_GSD"
+			(at 99.187 180.2821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,8 +4759,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 167.64 176.53 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 99.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 179.07 0)
+			(at 93.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,8 +4777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 162.56 179.07 0)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 93.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,17 +4786,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyLink" ""
-			(at 162.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 162.56 179.07 0)
+		(property "MPN" "DMN30H4D0L-13"
+			(at 93.98 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,18 +4796,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "4d1e8eeb-2a25-4d08-a3af-d81e0c0f19fa")
-		)
-		(pin "2"
-			(uuid "9d2209fe-2a66-4663-af6b-145d93d26c8d")
+			(uuid "4f036c94-cf37-48df-963c-89a473b63915")
 		)
 		(pin "1"
-			(uuid "dad716b1-91bc-46bd-b802-65ca6688917f")
+			(uuid "29e8da8c-230d-4717-b8f7-f0465f50f053")
+		)
+		(pin "2"
+			(uuid "4e23107d-3457-4b1d-84b7-7ba834431e0d")
 		)
 		(instances
-			(project "tamagotchi"
+			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -5174,6 +5045,88 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 162.56 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd60b8a-7a94-4eeb-aa6a-96330a73257a")
+		(property "Reference" "Q3"
+			(at 167.767 177.8578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 167.767 180.2821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN30H4D0L-13"
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79b4eb2d-d31b-4353-b88e-0f5d09d3044e")
+		)
+		(pin "1"
+			(uuid "41300efd-26d9-43e9-aaf8-333a772679c1")
+		)
+		(pin "2"
+			(uuid "8a4ca678-729d-429a-8657-02c3160f0fb0")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6300,6 +6253,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 156.21 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d2f47c8e-efcf-4e33-9527-a0bc250d711d")
+		(property "Reference" "BOM2"
+			(at 158.369 91.4978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DisplayCable-BOM"
+			(at 158.369 93.9221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyLink" "https://www.digikey.com/en/products/detail/molex/0151340700/6198158?s=N4IgTCBcDaIIwFY4GYAsAGA7O9IC6AvkA"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "151340700"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "BOM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 125.73 81.28 0)
 		(unit 1)
@@ -7084,6 +7119,88 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 43.18 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f8ef4d-f9cf-4630-9c65-374eee0cb81c")
+		(property "Reference" "Q1"
+			(at 48.387 177.8578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GSD"
+			(at 48.387 180.2821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN30H4D0L-13"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "878bce01-ccd4-4bd4-9bb2-6dc872845122")
+		)
+		(pin "1"
+			(uuid "b5176e97-c749-41f9-9e7a-5c3932ef5c33")
+		)
+		(pin "2"
+			(uuid "39ce0583-81aa-4f73-99bd-22bced52fd14")
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
+					(reference "Q1")
 					(unit 1)
 				)
 			)

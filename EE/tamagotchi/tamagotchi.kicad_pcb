@@ -5151,7 +5151,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b678ef66-66bd-419f-be39-d45b247f7c52")
+			(uuid "765eb967-cff6-431e-a667-8c51a17e7e2b")
 		)
 		(fp_line
 			(start 0 30.5)
@@ -5161,7 +5161,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9cde98ad-cd7e-4c17-bbf7-9d31256ca908")
+			(uuid "10de522d-6750-4b2f-b76c-12d374886ed9")
 		)
 		(fp_line
 			(start 34.3 0)
@@ -5171,7 +5171,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4840c6e8-52a9-4c33-aaff-3c51c58da3af")
+			(uuid "3ddd39d7-7b82-49b2-b73c-32488a16dda5")
 		)
 		(fp_line
 			(start 34.3 30.5)
@@ -5181,7 +5181,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0f64b6a8-5200-4884-9531-eb75019ed7a1")
+			(uuid "750f351b-5172-42ee-88d2-7c97f6a3583f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -5200,30 +5200,41 @@
 			(size 2.1 2.1)
 			(drill 2.05)
 			(layers "*.Cu" "*.Mask")
-			(uuid "11e2634b-7e08-43e6-9691-996e6fa13f3b")
+			(uuid "9bd751b4-1b7c-430f-93c3-02648da1a146")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.6 27.7)
 			(size 2.1 2.1)
 			(drill 2.05)
 			(layers "*.Cu" "*.Mask")
-			(uuid "d6c0984e-4ec7-403d-b69e-0ac01c2c145d")
+			(uuid "daf04ff2-76a8-4bc9-ba0d-b026e2ad5d17")
 		)
 		(pad "" np_thru_hole circle
 			(at 31.7 2.8)
 			(size 2.1 2.1)
 			(drill 2.05)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2ec828fb-7746-4f17-a33b-8781fadefaff")
+			(uuid "3a0af6f2-f02f-4950-865c-bd3d13b60f59")
 		)
 		(pad "" np_thru_hole circle
 			(at 31.7 27.7)
 			(size 2.1 2.1)
 			(drill 2.05)
 			(layers "*.Cu" "*.Mask")
-			(uuid "11060594-2103-4e54-be68-27c604a85d23")
+			(uuid "550e0d01-2817-446f-9728-a26aad8e7ac3")
 		)
 		(embedded_fonts no)
+		(model "${PROJECT}/1_32inch_oled_module.stp"
+			(offset
+				(xyz 0 -30.5 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")

@@ -1,0 +1,97 @@
+(footprint "UT Transformer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.4 0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d205170-dac7-4654-bbc8-5decaf4fe312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "UT Transformer"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "964e2c87-618d-4d2c-ba40-8d38c407f961")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "575742f5-3a65-4dcd-abfc-ef32b29eeb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdc89484-a77f-4e66-bdb6-09d945479f36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea28a6c3-c843-443b-9e16-61e0bb63432d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 0.62)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bd4a22d3-b774-430a-955a-559e8ced1ca9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.85 1.85)
+		(size 1.75 1.75)
+		(drill 0.62)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0c792a3d-eff3-464e-9cf2-93405d4252dc")
+	)
+	(pad "3" thru_hole circle
+		(at 2.85 -1.85)
+		(size 1.75 1.75)
+		(drill 0.62)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "937ac3b6-8c3b-49f7-a80d-4c40a8a5a0f6")
+	)
+	(embedded_fonts no)
+)

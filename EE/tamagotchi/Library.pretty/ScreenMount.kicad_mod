@@ -135,4 +135,59 @@
 		(uuid "8a3ba5a6-1c84-4b2b-8a22-33de0a27cd55")
 	)
 	(embedded_fonts no)
+	(model "${PROJECT}/1_32inch_oled_module.stp"
+		(offset
+			(xyz 0 -30.5 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${PROJECT}/Tamagotchi-13RS014536.step"
+		(offset
+			(xyz 31.5 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${PROJECT}/Tamagotchi-13RS014536.step"
+		(offset
+			(xyz 31.5 -27.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${PROJECT}/Tamagotchi-13RS014536.step"
+		(offset
+			(xyz 2.5 -27.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${PROJECT}/Tamagotchi-13RS014536.step"
+		(offset
+			(xyz 3 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
