@@ -1996,9 +1996,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO pressure sensor?"
+		(exclude_from_sim no)
+		(at 69.596 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "066bb6be-9683-4975-aff2-b9b2d3d68df6")
+	)
 	(text "110khz, 50%DC\n100V\n\nConsumes ~200mA @ 5V"
 		(exclude_from_sim no)
-		(at 126.746 87.122 0)
+		(at 264.668 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)

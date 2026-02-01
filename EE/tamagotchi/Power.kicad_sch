@@ -1753,6 +1753,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO battery"
+		(exclude_from_sim no)
+		(at 146.05 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f0e1ba6-aa22-4b11-9eb0-99acfca884f0")
+	)
 	(text "Castelated board.\nSee: https://github.com/rolfluc/Batteryboard"
 		(exclude_from_sim no)
 		(at 150.114 96.012 0)
