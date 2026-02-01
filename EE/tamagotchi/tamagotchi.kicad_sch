@@ -193,6 +193,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 127) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476de1be-e8ee-4740-a38b-5c599c79671f")
+	)
+	(wire
+		(pts
 			(xy 124.46 143.51) (xy 124.46 118.11)
 		)
 		(stroke
@@ -313,16 +323,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 152.4 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a420ee42-f049-4541-87bb-9073abba9cab")
-	)
-	(wire
-		(pts
 			(xy 97.79 104.14) (xy 129.54 104.14)
 		)
 		(stroke
@@ -343,16 +343,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 127) (xy 154.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b493468c-5a3c-459b-9f8e-7973a993663e")
-	)
-	(wire
-		(pts
 			(xy 165.1 107.95) (xy 181.61 107.95)
 		)
 		(stroke
@@ -360,16 +350,6 @@
 			(type default)
 		)
 		(uuid "b76710f3-0397-44e8-a7fa-d8655f6f4efe")
-	)
-	(wire
-		(pts
-			(xy 157.48 127) (xy 157.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d50b0fa8-1070-4145-be31-b172599db37d")
 	)
 	(wire
 		(pts
@@ -643,36 +623,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GREEN_EN" input
-			(at 152.4 134.62 90)
-			(uuid "ddcee6b1-9d8a-4d19-adfa-b50385a356a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RED_EN" input
-			(at 154.94 134.62 90)
-			(uuid "27a0d593-2bd0-46da-aa00-3e2bed785947")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "YELLOW_EN" input
-			(at 157.48 134.62 90)
-			(uuid "29f18448-6465-49bf-a72d-be49d68f6e8b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CLK" input
 			(at 129.54 135.89 180)
 			(uuid "0a44798c-fb80-4092-b3ce-13944da46081")
@@ -721,6 +671,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BUZZ_PWM" input
+			(at 157.48 134.62 90)
+			(uuid "08f16d79-c61a-42ef-829f-8aff5dd1a6ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -867,29 +827,9 @@
 				(justify left)
 			)
 		)
-		(pin "GREEN_EN" input
-			(at 152.4 127 270)
-			(uuid "76a831a3-ee58-4497-82d5-5a6cd72b9e21")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INT_N" input
 			(at 129.54 104.14 180)
 			(uuid "8ac2a5ac-ffca-4bde-804f-146104f6c145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RED_EN" input
-			(at 154.94 127 270)
-			(uuid "3fc435c1-d07a-44e5-8dcc-6b8172e28d7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,16 +885,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "YELLOW_EN" input
-			(at 157.48 127 270)
-			(uuid "cc5c2863-fbaa-45bb-9725-b8a1574c2755")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "CLK" input
@@ -1015,6 +945,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BUZZ_PWM" input
+			(at 157.48 127 270)
+			(uuid "24dd8a48-4012-4435-9508-9c20dbf9f49e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

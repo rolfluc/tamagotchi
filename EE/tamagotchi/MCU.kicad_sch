@@ -1626,10 +1626,6 @@
 		(uuid "21c37708-998e-44c2-b15a-32baa3e18b58")
 	)
 	(no_connect
-		(at 171.45 91.44)
-		(uuid "428dbc8d-00dc-4348-b341-db1beacd7425")
-	)
-	(no_connect
 		(at 135.89 73.66)
 		(uuid "45b82a3d-6b56-403a-b977-e480f79e6ac5")
 	)
@@ -1953,6 +1949,26 @@
 		)
 		(uuid "4e4db70e-4c59-41f5-9b96-03a1a86bcf18")
 	)
+	(label "BUZZ_PWM"
+		(at 171.45 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d5c03ac-f1d5-4a32-8414-42c1c42414d1")
+	)
+	(label "BUZZ_PWM"
+		(at 24.13 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b9bb261-2ba5-48d7-a571-363a27d00041")
+	)
 	(label "CLK"
 		(at 171.45 76.2 0)
 		(effects
@@ -2104,6 +2120,17 @@
 			(justify right)
 		)
 		(uuid "0740ad0e-1b1c-4caa-aeb3-0d1ee1ebc887")
+	)
+	(hierarchical_label "BUZZ_PWM"
+		(shape input)
+		(at 24.13 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cb2e176-3461-4e43-94a8-f903f8557ce2")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
