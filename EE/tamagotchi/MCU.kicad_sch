@@ -1622,14 +1622,6 @@
 		)
 	)
 	(no_connect
-		(at 171.45 73.66)
-		(uuid "1539b4e9-3674-46bf-93a1-797bdc0e3423")
-	)
-	(no_connect
-		(at 135.89 78.74)
-		(uuid "17b09f67-760a-42f2-9d35-3ae47e07057a")
-	)
-	(no_connect
 		(at 35.56 177.8)
 		(uuid "21c37708-998e-44c2-b15a-32baa3e18b58")
 	)
@@ -1642,20 +1634,36 @@
 		(uuid "45b82a3d-6b56-403a-b977-e480f79e6ac5")
 	)
 	(no_connect
-		(at 135.89 83.82)
-		(uuid "6d32c21e-356b-4184-a4ea-1a36453dbeb3")
+		(at 135.89 93.98)
+		(uuid "4ee7babc-3209-4113-b248-e7115b99182f")
+	)
+	(no_connect
+		(at 171.45 88.9)
+		(uuid "710c789a-8abf-4da7-8360-d1f5fe91f05c")
+	)
+	(no_connect
+		(at 135.89 106.68)
+		(uuid "77449be5-6fe3-4d27-9962-21c58182ad1d")
 	)
 	(no_connect
 		(at 135.89 99.06)
 		(uuid "810af3c5-ddef-42cf-9036-aa9065265bf9")
 	)
 	(no_connect
+		(at 135.89 88.9)
+		(uuid "821683b1-c271-47ea-b957-d45e5cf54bba")
+	)
+	(no_connect
+		(at 171.45 86.36)
+		(uuid "90bf52ff-2f93-4227-95f4-3729e1956d3c")
+	)
+	(no_connect
 		(at 35.56 182.88)
 		(uuid "90c446f7-1601-48be-9943-4451cffa8a6e")
 	)
 	(no_connect
-		(at 135.89 106.68)
-		(uuid "b88851fd-b87a-401c-8056-b2cc61349fc2")
+		(at 171.45 106.68)
+		(uuid "ac70db25-a802-4d13-9ee9-20ebd3af21f7")
 	)
 	(no_connect
 		(at 135.89 81.28)
@@ -1664,51 +1672,6 @@
 	(no_connect
 		(at 171.45 81.28)
 		(uuid "d8a97785-1593-46c6-a19d-c2b6da504884")
-	)
-	(bus_entry
-		(at 267.97 41.91)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c07c01-dd5a-44b4-ad7b-1a95186040fd")
-	)
-	(bus_entry
-		(at 262.89 41.91)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae6733b-f50c-4d60-95cf-0a06b917b667")
-	)
-	(bus_entry
-		(at 260.35 41.91)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36438c1-2294-40dc-8d74-f52d43e6231e")
-	)
-	(bus_entry
-		(at 265.43 41.91)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c169397f-6846-4f2a-8973-dfc6d32a2797")
-	)
-	(bus_entry
-		(at 270.51 41.91)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db46ab51-3fe2-48a2-a8b1-4d5e22b81437")
 	)
 	(wire
 		(pts
@@ -1720,25 +1683,35 @@
 		)
 		(uuid "1b93e882-e905-4b5f-99b0-48d4793d7c33")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 265.43 41.91) (xy 267.97 41.91)
+			(xy 273.05 45.72) (xy 271.78 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ddcca2e-7d67-442b-8a04-99502824d9f5")
+		(uuid "2c402e38-9309-4ac0-a990-01e97a42db73")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 270.51 41.91) (xy 271.78 41.91)
+			(xy 273.05 38.1) (xy 271.78 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58410b31-fd8d-4f67-9516-78a5876dbc82")
+		(uuid "52aca03a-3f31-4ac9-b8c4-044661091d89")
+	)
+	(wire
+		(pts
+			(xy 273.05 48.26) (xy 271.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71494983-52c7-430c-a2bd-8fd772cc3bb2")
 	)
 	(wire
 		(pts
@@ -1752,83 +1725,13 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 44.45) (xy 267.97 45.72)
+			(xy 273.05 43.18) (xy 271.78 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2b7384d-d21b-4fe3-9956-df2789464904")
-	)
-	(bus
-		(pts
-			(xy 259.08 41.91) (xy 260.35 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a581be61-2639-4a87-b3f3-04cf5eaa2224")
-	)
-	(wire
-		(pts
-			(xy 257.81 44.45) (xy 257.81 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babb6d12-905e-475b-ac4f-92d2e7ff19ee")
-	)
-	(bus
-		(pts
-			(xy 260.35 41.91) (xy 262.89 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c752c70d-de93-4069-a651-60cc0a3c22fa")
-	)
-	(wire
-		(pts
-			(xy 262.89 44.45) (xy 262.89 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f02aed-49cd-4916-a72a-b83bec80c5c4")
-	)
-	(bus
-		(pts
-			(xy 262.89 41.91) (xy 265.43 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb39b3dd-4aeb-4da1-8bd9-2c2ab2ea2fd3")
-	)
-	(bus
-		(pts
-			(xy 267.97 41.91) (xy 270.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd84260e-61be-4e67-9db9-65f61d4a9c03")
-	)
-	(wire
-		(pts
-			(xy 260.35 44.45) (xy 260.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb9c999-696d-40f1-80c7-9406eaf36f5b")
+		(uuid "a021b11f-97c8-48a5-8dbe-3045d8c08931")
 	)
 	(wire
 		(pts
@@ -1852,13 +1755,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 44.45) (xy 265.43 45.72)
+			(xy 273.05 40.64) (xy 271.78 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff227ac8-eb4c-41f3-b409-dfd3705a7432")
+		(uuid "efbb9823-6dcc-452c-82dd-c8de0de8af99")
 	)
 	(label "CE_N"
 		(at 171.45 96.52 0)
@@ -1870,15 +1773,15 @@
 		)
 		(uuid "01cd5a3e-9ca1-4284-94da-14c47302ccb2")
 	)
-	(label "YELLOW_EN"
-		(at 135.89 91.44 180)
+	(label "SWCLK"
+		(at 35.56 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "027789ab-3e35-428f-bd81-1704914e522c")
+		(uuid "0286afe3-31fb-4c88-9569-84a1bfe4f01e")
 	)
 	(label "SCL"
 		(at 135.89 101.6 180)
@@ -1890,15 +1793,25 @@
 		)
 		(uuid "02da34ef-06ae-43ab-8338-69b15de42740")
 	)
-	(label "RST{SPI}"
-		(at 171.45 88.9 0)
+	(label "VAPE_LED"
+		(at 274.32 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0e7a7221-cbcf-439f-b203-21c572cc9c9d")
+		(uuid "03115df3-43fd-48e5-aa2a-b0b2e71d870b")
+	)
+	(label "DC"
+		(at 271.78 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10a5cd91-96f4-48a8-a226-1a9c5122a147")
 	)
 	(label "SWCLK"
 		(at 171.45 104.14 0)
@@ -1930,25 +1843,35 @@
 		)
 		(uuid "162e87ea-4644-43d9-918e-487ca4cce2ae")
 	)
-	(label "CS{SPI}"
-		(at 171.45 83.82 0)
+	(label "RST"
+		(at 271.78 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "17a2a04d-145c-4f68-ad24-dc502bea8e62")
+		(uuid "1b076808-ac98-471c-a2b2-fa16777bae9f")
 	)
-	(label "MOSI{SPI}"
-		(at 171.45 78.74 0)
+	(label "CLK"
+		(at 271.78 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1f8818b9-8eb9-474d-9675-1919dfddfc42")
+		(uuid "20753c9c-cec7-40bc-bd43-db6ed16e8321")
+	)
+	(label "VAPE_EN_N"
+		(at 135.89 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "222b2956-d9e7-4b13-a372-eb4f2e6c7bf8")
 	)
 	(label "INT_N"
 		(at 22.86 17.78 0)
@@ -1960,15 +1883,15 @@
 		)
 		(uuid "242d98d5-12b3-488a-bc30-7516ba46d7c5")
 	)
-	(label "CS{SPI}"
-		(at 262.89 45.72 270)
+	(label "RST"
+		(at 135.89 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "257d6c8f-58ed-412a-b6a5-81a660238a7e")
+		(uuid "30deca68-3f52-4522-8477-8ab1cdb3ecc5")
 	)
 	(label "VAPE_SW"
 		(at 22.86 20.32 0)
@@ -1990,15 +1913,15 @@
 		)
 		(uuid "3adb85d3-68ca-465e-a0c8-1ae4e154d628")
 	)
-	(label "GREEN_EN"
-		(at 135.89 88.9 180)
+	(label "CS"
+		(at 171.45 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "404dfe7b-a594-4488-8796-293eb8d3cf75")
+		(uuid "3e4615e4-03a1-42d4-8679-7dfb098b8f09")
 	)
 	(label "SDA"
 		(at 135.89 104.14 180)
@@ -2030,65 +1953,25 @@
 		)
 		(uuid "4e4db70e-4c59-41f5-9b96-03a1a86bcf18")
 	)
-	(label "CLK{SPI}"
-		(at 265.43 45.72 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "502247ab-5bcf-4e80-ac34-6c33dcf4db7f")
-	)
-	(label "DC{SPI}"
-		(at 171.45 86.36 0)
+	(label "CLK"
+		(at 171.45 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "57a4640b-2584-480b-904f-af090d6e1e02")
+		(uuid "8634c01c-c54e-4c49-9153-545f00629f66")
 	)
-	(label "YELLOW_EN"
-		(at 273.05 20.32 180)
+	(label "CS"
+		(at 271.78 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "769ee7e8-49ca-41b7-a92a-b5e994e7eac5")
-	)
-	(label "DC{SPI}"
-		(at 260.35 45.72 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ba5200c-6c7b-4d14-8d0e-e9286a4aa652")
-	)
-	(label "VAPE_SW"
-		(at 171.45 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "827e640b-aa0f-40fb-8b87-59687a00882f")
-	)
-	(label "SWDCLK"
-		(at 35.56 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "861c5671-eb62-4d7f-b02a-e7bdaabe3260")
+		(uuid "913c9d2d-a09f-4e01-b790-c31ed3be49ba")
 	)
 	(label "CE_N"
 		(at 22.86 15.24 0)
@@ -2100,15 +1983,15 @@
 		)
 		(uuid "9c5cd31f-f70d-4d84-89b5-54a943e17b7c")
 	)
-	(label "GREEN_EN"
-		(at 273.05 17.78 180)
+	(label "DC"
+		(at 171.45 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9eb0bffd-a568-409b-aeda-6c5c99ca0e17")
+		(uuid "9ce9cf18-31fb-4d39-97f1-c5dfef7975dd")
 	)
 	(label "SWDIO"
 		(at 171.45 101.6 0)
@@ -2119,6 +2002,16 @@
 			(justify left bottom)
 		)
 		(uuid "a6a8dbc5-a357-4993-a404-bf9b7540eae4")
+	)
+	(label "MOSI"
+		(at 271.78 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b45d0e9f-fd6a-49bd-be72-7cc3be68d7c2")
 	)
 	(label "VAPE_EN_N"
 		(at 273.05 33.02 180)
@@ -2140,16 +2033,6 @@
 		)
 		(uuid "b8da8e9f-9b7f-44cf-8684-dc4c405ad904")
 	)
-	(label "VAPE_EN_N"
-		(at 135.89 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bed4c6ce-541c-4809-bb84-bd13ed711452")
-	)
 	(label "INT_N"
 		(at 171.45 99.06 0)
 		(effects
@@ -2159,6 +2042,16 @@
 			(justify left bottom)
 		)
 		(uuid "c54ad589-ce85-415d-a2cb-2adc3affa18f")
+	)
+	(label "MOSI"
+		(at 171.45 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cedc583d-f88e-496a-97cf-d14a80e111f7")
 	)
 	(label "VAPE_PWM"
 		(at 273.05 35.56 180)
@@ -2170,55 +2063,25 @@
 		)
 		(uuid "d14187ed-fbf9-4d82-aef4-dcf949234c52")
 	)
-	(label "RED_EN"
-		(at 273.05 22.86 180)
+	(label "VAPE_LED"
+		(at 135.89 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d7f0b6d4-427b-42e9-ae05-b6bc3000b634")
+		(uuid "d1de4859-d6e3-455f-85bc-551a12035afb")
 	)
-	(label "RST{SPI}"
-		(at 257.81 45.72 270)
+	(label "VAPE_SW"
+		(at 135.89 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dacca73b-2a93-4b9c-90b7-62e229e17aff")
-	)
-	(label "CLK{SPI}"
-		(at 171.45 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e65d3842-8285-4beb-ade0-58e089f1cafe")
-	)
-	(label "RED_EN"
-		(at 135.89 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f96484f2-8d8a-4d9b-b70c-661b2bbdeb07")
-	)
-	(label "MOSI{SPI}"
-		(at 267.97 45.72 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdb38680-0503-456e-8652-45e20215f803")
+		(uuid "d8e5eb88-f407-47cd-97f1-b0c3124a323f")
 	)
 	(hierarchical_label "INT_N"
 		(shape input)
@@ -2242,49 +2105,16 @@
 		)
 		(uuid "0740ad0e-1b1c-4caa-aeb3-0d1ee1ebc887")
 	)
-	(hierarchical_label "RED_EN"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 273.05 22.86 0)
+		(at 273.05 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0c710523-8cd8-4403-8e41-24a1767e3eb3")
-	)
-	(hierarchical_label "DISPLAY{SPI}"
-		(shape input)
-		(at 271.78 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23c8b59e-52c4-4a1e-8ee0-2294bb7ad827")
-	)
-	(hierarchical_label "YELLOW_EN"
-		(shape input)
-		(at 273.05 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4bf26bec-61c2-40bc-b956-853e8b55e99a")
-	)
-	(hierarchical_label "GREEN_EN"
-		(shape input)
-		(at 273.05 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56c48367-b3bf-4a82-a32a-7f6b4e58d316")
+		(uuid "5220de29-e386-4a86-af35-9d2ac300cf81")
 	)
 	(hierarchical_label "VAPE_EN_N"
 		(shape input)
@@ -2308,6 +2138,50 @@
 		)
 		(uuid "73c0cbf2-6c5d-44e6-8fe3-a1d4be782098")
 	)
+	(hierarchical_label "VAPE_LED"
+		(shape input)
+		(at 274.32 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7843909d-fd4b-4241-8e80-67fda9ad5c72")
+	)
+	(hierarchical_label "DC"
+		(shape input)
+		(at 273.05 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91b83dd5-3baf-494f-881b-b25c5f626d7b")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 273.05 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cc48a3e-d7cb-4a8c-addc-dfe0f363b3cd")
+	)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 273.05 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e55c175-61d9-496b-85d8-4f22b5e5ca02")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 273.05 27.94 0)
@@ -2329,6 +2203,17 @@
 			(justify left)
 		)
 		(uuid "b9c7ebe6-605a-4437-9f73-113962308191")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 273.05 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d51ca1f9-378e-4c19-988b-6b078195bea0")
 	)
 	(hierarchical_label "VAPE_SW"
 		(shape input)

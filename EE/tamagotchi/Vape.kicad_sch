@@ -2045,10 +2045,6 @@
 		(uuid "55e8d524-4c8d-4184-b3ed-2fc3b4dc9542")
 	)
 	(no_connect
-		(at 44.45 24.13)
-		(uuid "a74dba79-85c5-4e0a-a126-add105f16c90")
-	)
-	(no_connect
 		(at 153.67 144.78)
 		(uuid "f340316c-ddc4-4183-aa58-42f5ed002dde")
 	)
@@ -2412,6 +2408,16 @@
 		)
 		(uuid "e9e74e5f-2ca7-4264-8d7a-90cf0807eae1")
 	)
+	(label "VAPE_LED"
+		(at 26.67 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f811bb74-9d90-473c-aac6-2e9ae8c0f932")
+	)
 	(hierarchical_label "VAPE_SW"
 		(shape input)
 		(at 274.32 15.24 0)
@@ -2422,6 +2428,17 @@
 			(justify left)
 		)
 		(uuid "0295b548-d9a1-40be-ac50-401f600c3eb3")
+	)
+	(hierarchical_label "VAPE_LED"
+		(shape input)
+		(at 26.67 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3871bb33-c638-4e81-bccb-6b7459770b96")
 	)
 	(hierarchical_label "VBAT"
 		(shape input)

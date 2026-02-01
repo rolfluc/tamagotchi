@@ -614,509 +614,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_BAGR"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_BAGR"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED, blue/anode/green/red"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED RGB diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_BAGR_0_0"
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LED_BAGR_0_1"
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LED_BAGR_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "RK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1942,16 +1439,6 @@
 		)
 		(uuid d37adccd-cda9-4bd8-a291-908bbde5b513)
 	)
-	(text "Status Indicator"
-		(exclude_from_sim no)
-		(at 116.078 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "94fe0e87-ceaa-40e2-9b8d-8c5536daa364")
-	)
 	(text "Alcohol Backlight"
 		(exclude_from_sim no)
 		(at 44.704 144.272 0)
@@ -1986,101 +1473,6 @@
 		(color 0 0 0 0)
 		(uuid "f6b59062-f1bb-4702-b2c7-d55b4fd88643")
 	)
-	(bus_entry
-		(at 38.1 34.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a0417c-67f0-48be-a609-b3e8023130f5")
-	)
-	(bus_entry
-		(at 27.94 34.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d8e5b0-df4b-4444-9e4a-c05f58798cba")
-	)
-	(bus_entry
-		(at 30.48 34.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97752ebb-4771-4064-b709-64dea3637b63")
-	)
-	(bus_entry
-		(at 33.02 34.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b367420e-f259-4dc1-96da-fc7e9dcea6c8")
-	)
-	(bus_entry
-		(at 35.56 34.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b544ce7f-d860-4254-b5c0-a9074923abc5")
-	)
-	(wire
-		(pts
-			(xy 35.56 36.83) (xy 35.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bae9e4c-7640-43c3-abfb-ad926f66b455")
-	)
-	(wire
-		(pts
-			(xy 80.01 179.07) (xy 81.28 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1812b88d-198d-4a02-94e6-13333f9fdad3")
-	)
-	(bus
-		(pts
-			(xy 33.02 34.29) (xy 35.56 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1817e87a-ceaf-4a7a-b705-a4a6496e7e76")
-	)
-	(wire
-		(pts
-			(xy 148.59 179.07) (xy 149.86 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186c1770-396b-4d49-9ca2-2ec2d125b051")
-	)
-	(bus
-		(pts
-			(xy 27.94 34.29) (xy 30.48 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2025c522-6364-47be-abd5-c6edcbacca85")
-	)
 	(wire
 		(pts
 			(xy 19.05 168.91) (xy 19.05 171.45)
@@ -2090,16 +1482,6 @@
 			(type default)
 		)
 		(uuid "20b3e822-0692-4455-99bc-5d158caf4d78")
-	)
-	(wire
-		(pts
-			(xy 114.3 181.61) (xy 114.3 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23203c40-2c20-4e91-b913-a62a700ccdae")
 	)
 	(wire
 		(pts
@@ -2120,16 +1502,6 @@
 			(type default)
 		)
 		(uuid "2399a746-158e-47fa-9b86-0fbeab138ef1")
-	)
-	(wire
-		(pts
-			(xy 148.59 181.61) (xy 148.59 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e15605-0973-4a5c-95f9-ee90cfd85859")
 	)
 	(wire
 		(pts
@@ -2160,26 +1532,6 @@
 			(type default)
 		)
 		(uuid "35f2694f-0543-4107-95b5-10526a8a51b5")
-	)
-	(bus
-		(pts
-			(xy 38.1 34.29) (xy 39.37 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c7af326-7c45-4656-ac60-41c047ca4cc5")
-	)
-	(wire
-		(pts
-			(xy 33.02 36.83) (xy 33.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e61aa56-0196-4d82-b198-b3678d896e46")
 	)
 	(wire
 		(pts
@@ -2213,6 +1565,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 34.29) (xy 25.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7130d301-7f6c-455f-abae-87ceab6cf64e")
+	)
+	(wire
+		(pts
 			(xy 49.53 171.45) (xy 60.96 171.45)
 		)
 		(stroke
@@ -2220,16 +1582,6 @@
 			(type default)
 		)
 		(uuid "7330e208-a6be-4e1b-ac0b-40055b80ad72")
-	)
-	(wire
-		(pts
-			(xy 80.01 181.61) (xy 80.01 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88aeb8fe-9bf0-4797-8deb-e148be98fa59")
 	)
 	(wire
 		(pts
@@ -2243,16 +1595,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 40.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b1478c-419d-420d-b487-e541928d67a0")
-	)
-	(wire
-		(pts
 			(xy 60.96 168.91) (xy 60.96 171.45)
 		)
 		(stroke
@@ -2263,23 +1605,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 36.83) (xy 38.1 38.1)
+			(xy 24.13 31.75) (xy 25.4 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a275bec-807e-438f-b669-a3d2dee563aa")
-	)
-	(bus
-		(pts
-			(xy 26.67 34.29) (xy 27.94 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95b4359-f58d-4f70-81b4-e0493ce8527f")
+		(uuid "9e9811ae-0bdf-4855-afc8-79ace8a4b5d8")
 	)
 	(wire
 		(pts
@@ -2303,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 29.21) (xy 25.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c482a083-4625-43c9-9099-b0dc0ba95cb7")
+	)
+	(wire
+		(pts
 			(xy 26.67 181.61) (xy 26.67 179.07)
 		)
 		(stroke
@@ -2323,33 +1665,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 30.48 38.1)
+			(xy 24.13 26.67) (xy 25.4 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1a2225b-b027-4482-9774-e64eb9068c35")
+		(uuid "eb99477e-300f-4159-bb7e-9d77e3418b24")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 35.56 34.29) (xy 38.1 34.29)
+			(xy 24.13 24.13) (xy 25.4 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7db3a5f-e4ec-46c1-b313-4d8954144a9c")
-	)
-	(bus
-		(pts
-			(xy 30.48 34.29) (xy 33.02 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea30b122-52ae-45fc-b6a4-dd121fbc9e1a")
+		(uuid "ee3d4fd8-0ee3-4355-a8f8-ca10c5d7e3aa")
 	)
 	(wire
 		(pts
@@ -2361,35 +1693,25 @@
 		)
 		(uuid "f09714a3-10be-4e91-a498-6fb78ece5b74")
 	)
-	(wire
-		(pts
-			(xy 114.3 179.07) (xy 115.57 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f635b620-0690-45bf-a33a-438ec7189cbd")
-	)
-	(label "CS{SPI}"
-		(at 129.54 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "11545a8f-70d4-4e0d-a74e-5b9d8a5d8e20")
-	)
-	(label "YELLOW_EN"
-		(at 24.13 19.05 0)
+	(label "CLK"
+		(at 25.4 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "198f6c1b-1ca7-4d42-9ffc-c8e09c7bdc0b")
+		(uuid "03d6420e-f6c6-4213-85f2-a178b3463775")
+	)
+	(label "CS"
+		(at 25.4 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20bbd977-0609-4fb0-b61d-d08906653468")
 	)
 	(label "VAPE_EN"
 		(at 26.67 179.07 180)
@@ -2401,47 +1723,17 @@
 		)
 		(uuid "289d9dbc-a1ed-4f54-b385-9594168a6fb1")
 	)
-	(label "G"
-		(at 156.21 170.18 0)
+	(label "DC"
+		(at 25.4 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "297b636c-2d31-48f1-93b8-e78501143166")
+		(uuid "2a08251f-16b4-488b-9495-c2e8c55d89bb")
 	)
-	(label "RED_EN"
-		(at 80.01 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e32eeb0-9fb8-4aa8-87d1-3dbcdf93421a")
-	)
-	(label "RED_EN"
-		(at 24.13 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35890296-02a6-41d2-89f3-f194d6ad4538")
-	)
-	(label "R"
-		(at 161.29 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e31a417-d411-4a31-9a33-d8bd4eb21395")
-	)
-	(label "RST{SPI}"
+	(label "RST"
 		(at 129.54 99.06 180)
 		(effects
 			(font
@@ -2449,209 +1741,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "50dccee9-b2cb-487b-abea-97585a340a43")
+		(uuid "2dd5d759-6497-4861-a4ce-987aa45646fa")
 	)
-	(label "G"
-		(at 123.19 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59430bf0-01ac-4f81-ab04-bc1e758b9add")
-	)
-	(label "DC{SPI}"
-		(at 129.54 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "690c566b-98ea-4d3a-b33e-13930a677187")
-	)
-	(label "GREEN_EN"
-		(at 148.59 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f2c823a-7691-4b59-a23b-4119a932c847")
-	)
-	(label "CS{SPI}"
-		(at 35.56 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84173eb1-de72-4283-9cd4-7cc4c72e5f74")
-	)
-	(label "GREEN_EN"
-		(at 24.13 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "860e9c63-d135-4bcb-a792-884126566a39")
-	)
-	(label "Y"
-		(at 118.11 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bb20c51-27fe-41f4-a503-db0808cd5d6b")
-	)
-	(label "CLK{SPI}"
-		(at 129.54 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e5fd91c-0714-4f86-9cec-c40fc559e3fa")
-	)
-	(label "YELLOW_EN"
-		(at 114.3 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a40df154-3205-49ab-a035-0d31e220287f")
-	)
-	(label "Y"
-		(at 82.55 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af03ec02-f2a1-4b4b-93da-cd72ce742f11")
-	)
-	(label "RST{SPI}"
-		(at 40.64 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc6d3c2c-3bf9-4dac-909a-e527b7f7529a")
-	)
-	(label "Y"
-		(at 151.13 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbf69dc3-6359-4f3d-ad7e-5d1a8ed26a46")
-	)
-	(label "DC{SPI}"
-		(at 38.1 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d609aeaa-743d-4ec1-a308-8fe06a04f207")
-	)
-	(label "MOSI{SPI}"
-		(at 30.48 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd407dcf-bd57-4117-ba43-6fd43e8c8ecb")
-	)
-	(label "G"
-		(at 165.1 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0dda496-5a6b-45c1-80b9-e93dba4e624a")
-	)
-	(label "Y"
-		(at 130.81 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e827f3d6-18e2-4678-98bd-ec9b7057bed2")
-	)
-	(label "R"
-		(at 128.27 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9601c40-f281-4f63-98f5-2610925ca74c")
-	)
-	(label "CLK{SPI}"
-		(at 33.02 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee09b648-3836-46e6-875a-e7573e1f4385")
-	)
-	(label "R"
-		(at 96.52 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f13ae980-9e72-4f86-8e78-0616323ceb2a")
-	)
-	(label "R"
-		(at 92.71 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3b9d5f4-3f5d-4a0f-9ab6-2a9491c08147")
-	)
-	(label "G"
-		(at 87.63 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc2290bd-24a3-424d-b438-dda19741902b")
-	)
-	(label "MOSI{SPI}"
+	(label "MOSI"
 		(at 129.54 88.9 180)
 		(effects
 			(font
@@ -2659,117 +1751,112 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fe57886a-6826-4bf8-af91-008ef40707c6")
+		(uuid "36bbd965-2903-4300-a749-fe1ea646351e")
 	)
-	(hierarchical_label "GREEN_EN"
+	(label "RST"
+		(at 25.4 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bddde4b-5917-4e8b-9996-5f1bff08e549")
+	)
+	(label "DC"
+		(at 129.54 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98489d12-91bd-4dfd-b71c-d7a547e41a6c")
+	)
+	(label "CS"
+		(at 129.54 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c88ab41c-76a2-4d4c-8d7c-2ada353ac713")
+	)
+	(label "CLK"
+		(at 129.54 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf4d2e3d-65b2-427d-9cb4-800cc58ee5b6")
+	)
+	(label "MOSI"
+		(at 25.4 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8512ef9-4ffe-41de-9633-3d86383afcbb")
+	)
+	(hierarchical_label "CS"
 		(shape input)
-		(at 24.13 21.59 180)
+		(at 24.13 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "365b3152-303e-480c-854d-7a4fe3e0136e")
+		(uuid "76faa5c6-ce6d-42ac-8df3-3678a8fde426")
 	)
-	(hierarchical_label "YELLOW_EN"
+	(hierarchical_label "DC"
 		(shape input)
-		(at 24.13 19.05 180)
+		(at 24.13 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "62566614-aefa-4779-bb11-642d9f9ee694")
+		(uuid "b73fc90c-cbe7-4011-95cc-4560d4f160ec")
 	)
-	(hierarchical_label "RED_EN"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 24.13 16.51 180)
+		(at 24.13 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "93479a4f-a7ff-4791-a06d-d77bfeeb6a5a")
+		(uuid "c9b8c9ad-fd2d-476c-8781-067301308e95")
 	)
-	(hierarchical_label "DISPLAY{SPI}"
+	(hierarchical_label "CLK"
 		(shape input)
-		(at 26.67 34.29 180)
+		(at 24.13 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ddcbd9aa-4172-4ca8-a3cb-c9c858944ff4")
+		(uuid "c9d5768c-72dc-41c3-b780-93c8a74aa0b0")
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 87.63 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0381aad6-54da-495c-8a02-1c8c7933c5c7")
-		(property "Reference" "#PWR013"
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 24.13 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "+3V3"
-			(at 87.63 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4041c83d-39cb-4a68-903c-c3af5a3f8e47")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "dfe08f4e-0f79-4407-9a8a-1d83d8bd5bb2")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2925,214 +2012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 148.59 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d368ce5-2647-4de1-9bb6-6ded85e1f167")
-		(property "Reference" "#PWR018"
-			(at 148.59 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf1f200-3144-40a1-a6d1-74998d3ecdfc")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_BAGR")
-		(at 156.21 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dbfcf18-26b4-4e02-8e50-262b5ae6fb9f")
-		(property "Reference" "D5"
-			(at 164.592 163.8878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_BRGY"
-			(at 164.592 166.3121 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:EAST1616RGYA0_EVE"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EAST1616RGYA0"
-			(at 156.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "74b4b22e-2fba-45ab-8a5b-cd58a15bba37")
-		)
-		(pin "4"
-			(uuid "d56c7a23-6061-4395-917b-b36a1e49b413")
-		)
-		(pin "2"
-			(uuid "a0a3e676-2c98-466d-b22e-dd17b405840b")
-		)
-		(pin "1"
-			(uuid "36056a18-d647-4028-905c-57ac83df82ea")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ed13606-57e4-4b70-bf8d-43ba08dfbaae")
-		(property "Reference" "#PWR017"
-			(at 130.81 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c872f7f-6225-4273-9c9f-0229a9fbdde4")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 29.21 165.1 90)
 		(unit 1)
@@ -3231,241 +2110,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d2becbe-5be2-443a-a0bb-0d0b589a9b08")
-		(property "Reference" "R8"
-			(at 116.84 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 114.3 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 112.522 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 114.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8cf464c-c7c2-46cf-b0e7-e5a0f41a28d2")
-		)
-		(pin "2"
-			(uuid "b30a7373-f2a0-41fb-8044-2f932f0d7bca")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 128.27 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "205b04ef-bc48-4752-88d6-c5d61d6c0e52")
-		(property "Reference" "Q2"
-			(at 133.477 177.8578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 133.477 180.2821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMN30H4D0L-13"
-			(at 128.27 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "65ba4b2b-2e41-4bab-b470-e58aeac0576e")
-		)
-		(pin "1"
-			(uuid "e13b1054-6718-4d6f-8ad6-e5b928bae166")
-		)
-		(pin "2"
-			(uuid "104ffdef-0368-42a0-baee-04c8cc4f3ee2")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24964792-3e74-4994-a841-417469d7534b")
-		(property "Reference" "#PWR015"
-			(at 114.3 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "847f6d71-6110-462c-b90e-df6b58aed293")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 19.05 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3547,91 +2191,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2df35f89-f4dc-4018-9c64-22488fc30b53")
-		(property "Reference" "R12"
-			(at 153.67 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 153.67 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 153.67 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 153.67 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 153.67 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee176c23-c5e7-4206-b6ea-765230992cb6")
-		)
-		(pin "2"
-			(uuid "ed67aa74-1516-4a36-9f07-88d4af95c8a3")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4017,91 +2576,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43cf0a89-5da9-41a3-a8cc-446db9a6f65b")
-		(property "Reference" "R9"
-			(at 119.38 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 119.38 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 119.38 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 119.38 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 119.38 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b28f6c9c-10fb-46bf-8c17-6076e7ed52c6")
-		)
-		(pin "2"
-			(uuid "581091d8-c47e-4a10-97d4-50241a6a374e")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 29.21 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4301,72 +2775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e3a5fa7-8f04-4039-9143-a609a9a62d70")
-		(property "Reference" "#PWR019"
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d14f49bf-6360-461e-88e6-7e27d7fa8b60")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 157.48 0)
 		(unit 1)
@@ -4449,88 +2857,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 93.98 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62067be7-50f1-48b8-b92f-fad4f2027b7b")
-		(property "Reference" "Q7"
-			(at 99.187 177.8578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 99.187 180.2821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 99.06 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMN30H4D0L-13"
-			(at 93.98 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4f036c94-cf37-48df-963c-89a473b63915")
-		)
-		(pin "1"
-			(uuid "29e8da8c-230d-4717-b8f7-f0465f50f053")
-		)
-		(pin "2"
-			(uuid "4e23107d-3457-4b1d-84b7-7ba834431e0d")
-		)
-		(instances
-			(project ""
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4698,164 +3024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_BAGR")
-		(at 87.63 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a5a0fcb-945d-4bfd-8414-9e46b9da7378")
-		(property "Reference" "D3"
-			(at 96.012 163.8878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_BRGY"
-			(at 96.012 166.3121 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:EAST1616RGYA0_EVE"
-			(at 88.9 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EAST1616RGYA0"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b1ec39b1-a2b7-445c-a62f-2e0900806faa")
-		)
-		(pin "4"
-			(uuid "ef1e445d-5d89-4b6c-afdc-256be9b124ca")
-		)
-		(pin "2"
-			(uuid "712b2a1e-ad7d-481d-86fd-d7978e798335")
-		)
-		(pin "1"
-			(uuid "38359cab-2008-4bc9-8fd1-8d09228d17a3")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 162.56 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cd60b8a-7a94-4eeb-aa6a-96330a73257a")
-		(property "Reference" "Q3"
-			(at 167.767 177.8578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 167.767 180.2821 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 162.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMN30H4D0L-13"
-			(at 162.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "79b4eb2d-d31b-4353-b88e-0f5d09d3044e")
-		)
-		(pin "1"
-			(uuid "41300efd-26d9-43e9-aaf8-333a772679c1")
-		)
-		(pin "2"
-			(uuid "8a4ca678-729d-429a-8657-02c3160f0fb0")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 29.21 153.67 0)
 		(unit 1)
@@ -4916,223 +3084,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f77d47-deff-4ddb-8a77-69f2f37ccdd2")
-		(property "Reference" "#PWR016"
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.19 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fd8e6d4-f70d-4fa6-8a6e-aafa21cc6b59")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8df6e945-f3bc-4342-89f2-3ae926535c88")
-		(property "Reference" "#PWR012"
-			(at 80.01 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3d296c6-74b1-4706-9c63-1ec458ce814f")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 85.09 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e434292-a33b-481e-a3ab-c975ca38c909")
-		(property "Reference" "R6"
-			(at 85.09 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 85.09 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 85.09 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 85.09 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 85.09 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebe35664-862d-4b8e-9d3c-fa9fd0810e57")
-		)
-		(pin "2"
-			(uuid "f8d99b7c-4da1-4c84-a1f9-c90d8632e0ac")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5236,72 +3187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bebe770-0c3e-4d89-815a-760fbc7dbc16")
-		(property "Reference" "#PWR020"
-			(at 165.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "440f6ba4-3bbb-4391-9a90-9f48dcdb2fc3")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 19.05 165.1 90)
 		(unit 1)
@@ -5393,181 +3278,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0324c88-40a1-49f1-bce0-a03601ec4ff3")
-		(property "Reference" "R7"
-			(at 90.17 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 90.17 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 85.852 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 87.63 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1add1e4-a565-4a61-a1e8-d972d5b9bb2e")
-		)
-		(pin "1"
-			(uuid "e7d7da38-1030-4256-bc72-47d06cea59aa")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a688844b-eadd-4d12-887d-a014abf64ab5")
-		(property "Reference" "R11"
-			(at 151.13 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 148.59 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 146.812 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 148.59 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdd19e83-39d4-45b2-a63d-5abd24c771a4")
-		)
-		(pin "2"
-			(uuid "0fbe36d6-43d3-4ad6-9ddf-b4c93787108f")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5828,82 +3538,6 @@
 			(project ""
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_BAGR")
-		(at 123.19 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0dab485-d742-4274-be7f-f3b2e911aa3c")
-		(property "Reference" "D4"
-			(at 131.572 163.8878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_BRGY"
-			(at 131.572 166.3121 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Library:EAST1616RGYA0_EVE"
-			(at 124.46 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EAST1616RGYA0"
-			(at 123.19 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "04f32329-a54b-4758-a7c8-1cf0b6d1b847")
-		)
-		(pin "4"
-			(uuid "dc6572c0-88dc-4202-a26e-412ad8f5721f")
-		)
-		(pin "2"
-			(uuid "fbbe5feb-6b08-4791-ab64-a22c11b6e44d")
-		)
-		(pin "1"
-			(uuid "26687250-f9c4-46f9-be6d-fcc5c25b488e")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6585,269 +4219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3fe1fb8-18c6-435b-aac2-96a593e40350")
-		(property "Reference" "R13"
-			(at 158.75 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 158.75 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 154.432 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bd660d4-0d7c-426b-8d35-4c8e92bc33ab")
-		)
-		(pin "1"
-			(uuid "23d78e9e-d496-48f0-9155-4d1d93c758d8")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4552ab7-d83d-493e-8fc9-7d3edb04b12b")
-		(property "Reference" "R10"
-			(at 125.73 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 125.73 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 121.412 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b87e3118-d868-4902-9818-e669b48431ea")
-		)
-		(pin "1"
-			(uuid "cf6d7bf6-80ae-46f5-a511-61df578b3c53")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7082725-b34e-4e43-8e0d-e86973d6f31e")
-		(property "Reference" "R5"
-			(at 82.55 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 80.01 187.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 78.232 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyLink" ""
-			(at 80.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 80.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e340ea05-5f8f-4076-a306-0a298e02ae2f")
-		)
-		(pin "2"
-			(uuid "544d250d-22c5-419d-8026-ffa50ac72e18")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 43.18 179.07 0)
 		(unit 1)
@@ -6924,72 +4295,6 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcf33359-7297-4a6e-a880-41b04b8e61ab")
-		(property "Reference" "#PWR014"
-			(at 96.52 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2a99a8a-5cd7-491a-bf52-b2d760322b30")
-		)
-		(instances
-			(project "tamagotchi"
-				(path "/47ffaef6-4682-4a87-a393-bad1a10963be/5c3b0e4f-8c4a-467f-9d04-d27cab17098a"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
