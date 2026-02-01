@@ -2006,16 +2006,6 @@
 		)
 		(uuid "4c0146cb-c854-4673-bc60-b23852986ad1")
 	)
-	(text "TODO footprint from board"
-		(exclude_from_sim no)
-		(at 205.74 110.998 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e73b91dc-449e-4f69-a623-70f642d71d3d")
-	)
 	(junction
 		(at 124.46 24.13)
 		(diameter 0)
