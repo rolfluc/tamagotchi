@@ -10,4 +10,4 @@
 *.FCBak
 tamagotchi.step
 # End of https://www.toptal.com/developers/gitignore/api/freecad
-
+Output/*
