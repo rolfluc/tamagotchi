@@ -703,6 +703,10 @@
     [
       "0f9f9e1b-dcd6-4194-955e-d48be8be13d1",
       "Power"
+    ],
+    [
+      "c0053a07-5e35-47fe-bb96-ec1120c7ff1f",
+      "Pressure"
     ]
   ],
   "text_variables": {}

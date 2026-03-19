@@ -131,6 +131,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO I2C ADDR"
+		(exclude_from_sim no)
+		(at 145.288 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19271f34-2491-4304-8f16-b7244c446f0c")
+	)
 	(text "TODO can 3v3 be done?"
 		(exclude_from_sim no)
 		(at 106.934 81.28 90)
@@ -140,6 +150,16 @@
 			)
 		)
 		(uuid "6be8244b-7d3a-4e70-92cb-baa95e4afba7")
+	)
+	(text "TODO I2C ADDR"
+		(exclude_from_sim no)
+		(at 71.12 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb32c298-5576-4857-a13b-a7e017f1174d")
 	)
 	(wire
 		(pts
@@ -170,16 +190,6 @@
 			(type default)
 		)
 		(uuid "1d2d48da-f7df-475b-a0c0-fd80255d23b3")
-	)
-	(wire
-		(pts
-			(xy 97.79 106.68) (xy 129.54 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261339b2-010a-4d6e-abd0-7efc4c8a77f8")
 	)
 	(wire
 		(pts
@@ -313,16 +323,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 109.22) (xy 129.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8fff71-5fd5-412a-a269-7f5a3772a625")
-	)
-	(wire
-		(pts
 			(xy 97.79 104.14) (xy 129.54 104.14)
 		)
 		(stroke
@@ -401,6 +401,16 @@
 		)
 		(uuid "fc4cec51-577e-469c-a54f-923ecc8ab26d")
 	)
+	(label "SCL"
+		(at 97.79 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2060d337-9b35-4ff8-9b84-0d4c6344a513")
+	)
 	(label "VBAT"
 		(at 97.79 96.52 0)
 		(effects
@@ -411,6 +421,16 @@
 		)
 		(uuid "218640bd-c2c5-43b0-818d-11a8d0794c1e")
 	)
+	(label "SDA"
+		(at 97.79 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39bcae2d-473c-4703-97ca-f926c6411ec9")
+	)
 	(label "VBAT"
 		(at 181.61 99.06 180)
 		(effects
@@ -420,6 +440,46 @@
 			(justify right bottom)
 		)
 		(uuid "45ba6689-d16d-4bec-9970-18348b4f51e5")
+	)
+	(label "SDA"
+		(at 129.54 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9de24658-0987-4cc9-aad5-c76b5a27cedc")
+	)
+	(label "SCL"
+		(at 129.54 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7169fd4-62a6-4855-b392-e52c28bccfd5")
+	)
+	(label "SCL"
+		(at 129.54 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4ea5fc2-2142-484b-b8a6-07905776341d")
+	)
+	(label "SDA"
+		(at 129.54 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fccec678-0f9e-4da7-906b-644b2e3278e3")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -687,6 +747,68 @@
 			(project "tamagotchi"
 				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 45.72)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0053a07-5e35-47fe-bb96-ec1120c7ff1f")
+		(property "Sheetname" "Pressure"
+			(at 129.54 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pressure.kicad_sch"
+			(at 129.54 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 129.54 55.88 180)
+			(uuid "ee516fb6-4967-4b93-9875-ad39c0970300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 129.54 58.42 180)
+			(uuid "7dd5f372-f13b-4bfc-8a74-5ae1e12a50f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "tamagotchi"
+				(path "/47ffaef6-4682-4a87-a393-bad1a10963be"
+					(page "6")
 				)
 			)
 		)
