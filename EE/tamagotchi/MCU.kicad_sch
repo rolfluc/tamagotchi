@@ -1621,6 +1621,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "~1.4mA during low"
+		(exclude_from_sim no)
+		(at 173.99 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a701517-afee-43c5-b57c-50ad146f7730")
+	)
+	(text "Probably about 10mA\nBig TBD here"
+		(exclude_from_sim no)
+		(at 155.194 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb75dd56-58cb-4110-9672-28bec1f3ff74")
+	)
 	(no_connect
 		(at 135.89 91.44)
 		(uuid "1aea8caf-d99b-4ab9-941a-fe49e7b6c901")
@@ -1638,12 +1658,16 @@
 		(uuid "26c839e0-08af-4848-82c6-be7bb029ffac")
 	)
 	(no_connect
+		(at 171.45 73.66)
+		(uuid "3ce560b5-2fe4-4d42-949e-557770438e4e")
+	)
+	(no_connect
 		(at 135.89 73.66)
 		(uuid "45b82a3d-6b56-403a-b977-e480f79e6ac5")
 	)
 	(no_connect
-		(at 135.89 106.68)
-		(uuid "77449be5-6fe3-4d27-9962-21c58182ad1d")
+		(at 135.89 83.82)
+		(uuid "6af3b586-f16c-4779-8cb7-21acfa5d11aa")
 	)
 	(no_connect
 		(at 135.89 99.06)
@@ -1658,8 +1682,8 @@
 		(uuid "90c446f7-1601-48be-9943-4451cffa8a6e")
 	)
 	(no_connect
-		(at 135.89 81.28)
-		(uuid "cd2e9e82-dbc8-4f13-a876-5a3ba4ff1be9")
+		(at 171.45 106.68)
+		(uuid "a38d8bfa-40b3-4360-a385-24cdf19aa839")
 	)
 	(no_connect
 		(at 135.89 78.74)
@@ -1668,6 +1692,10 @@
 	(no_connect
 		(at 171.45 81.28)
 		(uuid "d8a97785-1593-46c6-a19d-c2b6da504884")
+	)
+	(no_connect
+		(at 135.89 93.98)
+		(uuid "ea400f2b-4bfd-4ffa-85af-8a33f49b526d")
 	)
 	(wire
 		(pts
@@ -1859,28 +1887,8 @@
 		)
 		(uuid "222b2956-d9e7-4b13-a372-eb4f2e6c7bf8")
 	)
-	(label "INT_N"
-		(at 22.86 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "242d98d5-12b3-488a-bc30-7516ba46d7c5")
-	)
-	(label "RST"
-		(at 135.89 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30deca68-3f52-4522-8477-8ab1cdb3ecc5")
-	)
 	(label "VAPE_SW"
-		(at 22.86 20.32 0)
+		(at 22.86 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1939,16 +1947,6 @@
 		)
 		(uuid "4e4db70e-4c59-41f5-9b96-03a1a86bcf18")
 	)
-	(label "INT_N"
-		(at 171.45 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5546815a-a74c-4f24-9722-210feb40b731")
-	)
 	(label "VAPE_LED"
 		(at 171.45 88.9 0)
 		(effects
@@ -1970,7 +1968,7 @@
 		(uuid "5d5c03ac-f1d5-4a32-8414-42c1c42414d1")
 	)
 	(label "BUZZ_PWM"
-		(at 24.13 22.86 0)
+		(at 24.13 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1978,6 +1976,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b9bb261-2ba5-48d7-a571-363a27d00041")
+	)
+	(label "DC"
+		(at 135.89 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79b971e8-7978-49f3-8f3f-c83b5a3c5f97")
 	)
 	(label "VAPE_SW"
 		(at 171.45 86.36 0)
@@ -1999,6 +2007,16 @@
 		)
 		(uuid "8634c01c-c54e-4c49-9153-545f00629f66")
 	)
+	(label "RST"
+		(at 135.89 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87513783-97c5-4d0c-85aa-ad560a92dd5f")
+	)
 	(label "CS"
 		(at 271.78 43.18 180)
 		(effects
@@ -2008,26 +2026,6 @@
 			(justify right bottom)
 		)
 		(uuid "913c9d2d-a09f-4e01-b790-c31ed3be49ba")
-	)
-	(label "CE_N"
-		(at 22.86 15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c5cd31f-f70d-4d84-89b5-54a943e17b7c")
-	)
-	(label "DC"
-		(at 171.45 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ce9cf18-31fb-4d39-97f1-c5dfef7975dd")
 	)
 	(label "SWDIO"
 		(at 171.45 101.6 0)
@@ -2089,41 +2087,9 @@
 		)
 		(uuid "d14187ed-fbf9-4d82-aef4-dcf949234c52")
 	)
-	(label "CE_N"
-		(at 135.89 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb04e0fc-82b3-4490-ad6d-4a660fd1dea9")
-	)
-	(hierarchical_label "INT_N"
-		(shape input)
-		(at 22.86 17.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "068977c7-dd80-4ea7-90e5-d985d5c967a4")
-	)
-	(hierarchical_label "CE_N"
-		(shape input)
-		(at 22.86 15.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0740ad0e-1b1c-4caa-aeb3-0d1ee1ebc887")
-	)
 	(hierarchical_label "BUZZ_PWM"
 		(shape input)
-		(at 24.13 22.86 180)
+		(at 24.13 17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2210,7 @@
 	)
 	(hierarchical_label "VAPE_SW"
 		(shape input)
-		(at 22.86 20.32 180)
+		(at 22.86 15.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)

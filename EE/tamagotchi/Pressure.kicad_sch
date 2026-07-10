@@ -597,6 +597,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2mA during acq/conv"
+		(exclude_from_sim no)
+		(at 162.052 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04ac7b62-fc4e-48bc-81d0-afcc14b81b0c")
+	)
+	(text "TODO 10u"
+		(exclude_from_sim no)
+		(at 114.3 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11962c25-0220-41ff-9700-37cf5ac8de91")
+	)
 	(junction
 		(at 143.51 78.74)
 		(diameter 0)
