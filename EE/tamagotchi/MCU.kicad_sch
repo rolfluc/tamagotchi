@@ -1947,16 +1947,6 @@
 		)
 		(uuid "4e4db70e-4c59-41f5-9b96-03a1a86bcf18")
 	)
-	(label "VAPE_LED"
-		(at 171.45 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55a40525-b3fe-4945-a537-f4c271702dd8")
-	)
 	(label "BUZZ_PWM"
 		(at 171.45 91.44 0)
 		(effects
@@ -1977,6 +1967,16 @@
 		)
 		(uuid "6b9bb261-2ba5-48d7-a571-363a27d00041")
 	)
+	(label "VAPE_SW"
+		(at 171.45 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73ccb919-ca03-43b5-b547-453faeee5f20")
+	)
 	(label "DC"
 		(at 135.89 81.28 180)
 		(effects
@@ -1986,16 +1986,6 @@
 			(justify right bottom)
 		)
 		(uuid "79b971e8-7978-49f3-8f3f-c83b5a3c5f97")
-	)
-	(label "VAPE_SW"
-		(at 171.45 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7aa2a99f-92b1-4e36-82b6-d42946e7a6ec")
 	)
 	(label "CLK"
 		(at 171.45 76.2 0)
@@ -2026,6 +2016,16 @@
 			(justify right bottom)
 		)
 		(uuid "913c9d2d-a09f-4e01-b790-c31ed3be49ba")
+	)
+	(label "VAPE_LED"
+		(at 171.45 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d05854-d845-4645-a912-4f28c1b924f6")
 	)
 	(label "SWDIO"
 		(at 171.45 101.6 0)
