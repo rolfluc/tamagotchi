@@ -2804,6 +2804,16 @@
 		)
 		(uuid "5f0e1ba6-aa22-4b11-9eb0-99acfca884f0")
 	)
+	(text "TODO maybe move away from 18650, centralize vape, have a square lipo poucn"
+		(exclude_from_sim no)
+		(at 150.622 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bd6c6ed-d856-4ca6-a0b6-2a4ce3307e79")
+	)
 	(text "~RESET is asserted to logic low, \nwhen ~MR is pulled low, or VDD falls below the threshold\nWhen inverse is true, ~RESET remainslow for minimum time \nperiod, then returns to high."
 		(exclude_from_sim no)
 		(at 71.374 159.512 0)
